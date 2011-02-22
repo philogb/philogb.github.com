@@ -9,7 +9,18 @@ a:active { color: #f6ef0c; }
 a:hover { color: #a73f0b; text-decoration: underline; }
 
 img { vertical-align: middle; border: none; }
-li { list-style-type: none; }
+
+.section li { 
+  list-style-type: none; 
+}
+
+.bottom li {
+  list-style-type: square;
+}
+
+.bottom ul {
+  margin: 0 7px;
+}
 
 table {
     border-collapse: collapse;
@@ -56,18 +67,27 @@ hr { border: 0; width: 100%; }
     margin: 0 auto 37px auto;
 }
 
-#dude {
+.image-frame {
   box-shadow: 0 0 5px #000;
   -moz-box-shadow: 0 0 5px #000;
   -webkit-box-shadow: 0 0 5px #000;
   -o-box-shadow: 0 0 5px #000;
 }
 
-#privacy-hell { margin-left: 20px; }
-#privacy-hell ul { margin-top: 2px; }
-#privacy-hell li { padding-bottom: 10px; }
-#privacy-hell a:hover { text-decoration: none; }
-#privacy-hell img {
+#dude {
+  width: 250px;
+}
+
+
+
+.section { margin-left: 20px; margin-bottom: 10px; }
+.section ul { margin-top: 7px; }
+.section li { padding-bottom: 10px; }
+.section a:hover { text-decoration: none; }
+.section.bottom {
+  margin-top: 20px;
+}
+.section img {
     width: 16px;
     height: 16px;
     margin-top: -2px;
@@ -113,7 +133,7 @@ hr { border: 0; width: 100%; }
 
 #footer {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
     font-size: 0.8em;
 }
 
