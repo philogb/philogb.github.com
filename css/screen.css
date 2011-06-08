@@ -22,6 +22,10 @@ img { vertical-align: middle; border: none; }
   margin: 0 7px;
 }
 
+li em {
+  font-size: 0.7em;
+}
+
 table {
     border-collapse: collapse;
 }
