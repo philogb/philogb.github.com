@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>US Budget Visualization</title>
+  <meta charset="utf-8" />
+  <meta name="copyright" content="Nicolas Garcia Belmonte" />
+  <link rel="shortcut icon" type="image/ico" href="/assets/img/blog.png" /> 
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection, handheld" />
+</head>
+<body>
+
+  <article>
+  <nav>
+    <a href="/">Back to Home</a>
+  </nav>
+
+  <header>
+    <h1>US Budget Visualization</h1>
+  </header>
+
+  <p>Launch the Visualization by <a href='http://blog.thejit.org/assets/dataviz/index.html'>clicking here</a> (browsers supported are the latest of Google Chrome, Firefox, Opera and Safari -not IE).</p>
+
+<p>Every year, Americans fill out income tax forms and make a payment to the IRS. Where does it all go? Using data provided by WhatWePayFor.com, <a href='http://uxnerd.com/'>Luz Caballero</a> and I created a data visualization that will make it easier to understand how the government spends our tax money.</p>
+
+<h2 id='the_visualization'>The Visualization</h2>
+
+<p>This visualization is made of two components. First, a tree layout shows, for each given year, how the budget (blue) is divided on each function (green), subfunction (yellow), and &#8220;account&#8221; (the most granular subdivision accounted for in the budget, which gives an idea of the use to which the money is put) (red):</p>
+
+<p><img src='/assets/dataviz/icicle.png' alt='Icicle Layout' /></p>
+
+<p>The height of each node/section in the tree is proportional to the amount of the budget spent on that function, subfunction or &#8220;account&#8221;. <strong>You can click on the nodes to navigate and filter functions and subfunctions</strong>. To go back you can right-click or click in the back arrow on the left of the visualization.</p>
+
+<p>The second component of the application is a timeline that puts the amounts you are visualizing in the tree in a temporal context, showing the evolution of that particular spending category through time. <strong>Click on the bars representing the different years to navigate through time</strong>.</p>
+
+<p><img src='/assets/dataviz/timeline.png' alt='Timeline' /></p>
+
+<p>We wanted to allow our users to compare today&#8217;s spending to the 80s&#8217; without artifacts caused by inflation, and changes in population and GDP. This is why our visualization shows inflation-adjusted USD, gives you the the option to see spending in USD, in USD per capita, or as a percentage of the time&#8217;s GDP. Plus, we wanted to give our users a good shot at pinpointing if/when spending changes are a consequence of government policy or of the economic climate. This is why you can overlay indicators like debt, GDP, inflation and yr/yr population change, to give you an idea of how they affect and are influenced by spending trends.</p>
+
+<p><img src='/assets/dataviz/timeline-debt.png' alt='Timeline' /></p>
+
+<h2 id='interaction'>Interaction</h2>
+
+<p>What makes this application most interesting is the interaction between the components, which are tightly coupled.</p>
+
+<p>When a function is selected, the timeline will adapt to show the budget spending trend for that particular function over the years.</p>
+
+<p><img src='/assets/dataviz/timeline2.png' alt='Interacting with the Icicle tree' /></p>
+
+<p>When clicking on a timeline element, the tree will animate to show how the budget is spent on each function, subfunction and account, for the selected year.</p>
+
+<p>If you are interested in comparing how the budget changed between two different moments in time, there is an option to transition between years using colors, red and green, to highlight a decrease or increase of total budget spending for each item.</p>
+
+<p><img src='/assets/dataviz/icicle2.png' alt='Interacting with the Icicle tree' /></p>
+
+<h2 id='demo_video'>Demo Video</h2>
+
+<p>We created a video that shows how to navigate and filter data and some interesting finds we made using our visualization. <a href='http://www.youtube.com/watch?v=WUtwn7wB9Hs&amp;hd=1'>Click here</a> to see the video in HD.</p>
+
+<p><a href='http://blog.thejit.org/assets/dataviz/'>Click here</a> to access the visualization.</p>
+<iframe src='http://www.youtube.com/embed/WUtwn7wB9Hs?rel=0' frameborder='0' height='390' width='480'>
+</iframe>
+  
+</article>
+
+
+
+
+<footer>
+
+  <address>
+  <ul>
+    <li>
+    <a href="mailto:philogb@gmail.com">
+      <img alt="mail" title="mail" src="/assets/img/gmail.png" />
+    </a>
+    </li>
+    <li>
+    <a href="http://www.linkedin.com/in/nicolasbelmonte">
+      <img alt="linkedin" title="linkedin" src="/assets/img/linkedin.png" />
+    </a>
+    </li>
+    <li>
+    <a href="http://twitter.com/philogb/">
+      <img alt="twitter" title="twitter" src="/assets/img/twitter.png" />
+    </a>
+    </li>
+    <li>
+    <a href="http://blog.thejit.org/">
+      <img alt="blog" title="blog" src="/assets/img/blog.png" />
+    </a>
+    </li>
+  </ul>
+  </address>
+    
+  Copyright 2011 &copy; Nicolas Garcia Belmonte. 
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+--- 
+layout: post
+title: PhiloGL
+description: A WebGL Framework for advanced data visualization, creative coding and game development.
+permalink: philogl
+category: Software
+tags: [WebGL]
+thumb: assets/img/philogl.png
+
+---
+
+[PhiloGL](http://senchalabs.github.com/philogl/) is a WebGL Framework for advanced data visualization, creative coding and game development.
+
+PhiloGL uses cutting edge technology and JavaScript idioms and good practices to deliver elegantly 
+coded WebGL applications that are focused on performance. PhiloGL also provides a rich module system 
+covering Program and Shader management, IO, XHR, JSONP, Web Worker management, Effects and Tweening, and much more.
+
+PhiloGL is Open Source Software, licensed under the MIT license and owned by the [SenchaLabs](http://senchalabs.org/) foundation.
+
+More information can be found in the [Sencha article](http://www.sencha.com/blog/introducing-philogl-a-webgl-javascript-library-from-sencha-labs/) 
+and the [Ars Technica article](http://arstechnica.com/open-source/news/2011/02/sencha-labs-releases-open-source-framework-for-webgl-development.ars).
+
+You can access the main page of the framework by [clicking
+here](http://senchalabs.github.com/philogl/).
+
+Some images of projects made with the framework:
+
+![World Flights](http://senchalabs.github.com/philogl/img/marquee/worldflights.png)
+
+![Metaballs](http://senchalabs.github.com/philogl/img/marquee/metaballs.png)
+
+![Parametric surface explorer](http://senchalabs.github.com/philogl/img/marquee/explorer.png)
+
+![Color histogram analysis](http://senchalabs.github.com/philogl/img/marquee/histogram.png)
+
+![World temperature anomalies](http://senchalabs.github.com/philogl/img/marquee/tanomalies.png)
+
+![Quaternion julia fractal](http://senchalabs.github.com/philogl/img/marquee/quaternion.png)
+

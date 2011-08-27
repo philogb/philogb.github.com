@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Firefox 4 UI Study</title>
+  <meta charset="utf-8" />
+  <meta name="copyright" content="Nicolas Garcia Belmonte" />
+  <link rel="shortcut icon" type="image/ico" href="/assets/img/blog.png" /> 
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection, handheld" />
+</head>
+<body>
+
+  <article>
+  <nav>
+    <a href="/">Back to Home</a>
+  </nav>
+
+  <header>
+    <h1>Firefox 4 UI Study</h1>
+  </header>
+
+  <p>Launch the Visualization by <a href='http://blog.thejit.org/assets/modvc/pilot/pilot.html'>clicking here</a>.</p>
+
+<p><a href='http://uxnerd.com/'>Maria Luz Caballero</a> and me have been working together for a couple of weeks to create an interesting visualization for the <a href='http://design-challenge.mozillalabs.com/open-data/OpenDataCompetition/'>Mozilla Open Data Visualization Challenge</a>.</p>
+
+<p>Mozilla is releasing a new version of Firefox, version 4. This new version introduces a new UI and they have been monitoring how users interact with the different UI components of Firefox 4. They gathered some interesting information about how UI components are accessed and other elements taken by a survey to the Firefox users describe their expertise level, age, place where Firefox is used, etc.</p>
+
+<p>We decided that this information could be visualized as a TreeMap in which the area of each node is proportional to the number of times a UI component has been accessed. For example in this image we can see that around 20% of UI interactions happen in the Navigation Toolbar, and it&#8217;s possible to compare the area of this rectangle to others to give us a clue of the overall interactions:</p>
+
+<p><img src='/assets/modvc/tm1.png' alt='Navigation Toolbar access tooltip image' /></p>
+
+<p>Each node also has a color that spans from red to blue, indicating an average of the expertise level of the user interacting with this component.</p>
+
+<p><img src='/assets/modvc/tm2.png' alt='Color span gradient' /></p>
+
+<p>It&#8217;s interesting to note how some components are more often accessed by expert users than by beginners and viceversa. However since we provide an <em>average</em> we lack the information about the <em>real distribution</em> of user skills accessing the component. In order to avoid misleading results, when drilling down the TreeMap PieCharts indicate the real user skill distribution for each UI component interaction.</p>
+
+<p><img src='/assets/modvc/tm3.png' alt='PieCharts as nodes for skill distribution' /></p>
+
+<p>What I believe is by far the most interesting aspect of this visualization is the fact of using the ordinal and nominal information provided by the user survey to provide dynamic filtering for the TreeMap. Dynamic filtering (or morphing) enables an easy comparison between different categories of users on how they interact with these components. The filter panel we provide is shown below:</p>
+
+<p><img src='/assets/modvc/tm4.png' alt='Dynamic Filtering Panel' /></p>
+
+<p>If you&#8217;re interested in taking a look at the visualization and playing with it please go to our <a href='http://blog.thejit.org/assets/modvc/pilot/pilot.html'>entry</a>. Browsers supported are Firefox 4, Opera 10.6+ and the latest of the Webkit family.</p>
+  
+</article>
+
+
+
+
+<footer>
+
+  <address>
+  <ul>
+    <li>
+    <a href="mailto:philogb@gmail.com">
+      <img alt="mail" title="mail" src="/assets/img/gmail.png" />
+    </a>
+    </li>
+    <li>
+    <a href="http://www.linkedin.com/in/nicolasbelmonte">
+      <img alt="linkedin" title="linkedin" src="/assets/img/linkedin.png" />
+    </a>
+    </li>
+    <li>
+    <a href="http://twitter.com/philogb/">
+      <img alt="twitter" title="twitter" src="/assets/img/twitter.png" />
+    </a>
+    </li>
+    <li>
+    <a href="http://blog.thejit.org/">
+      <img alt="blog" title="blog" src="/assets/img/blog.png" />
+    </a>
+    </li>
+  </ul>
+  </address>
+    
+  Copyright 2011 &copy; Nicolas Garcia Belmonte. 
+</footer>
+
+</body>
+</html>
