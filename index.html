@@ -15,17 +15,19 @@ title: Nicolas Garcia Belmonte
   </header>
   <ul>
     {% for post in site.posts reversed %}
-      {% if post.category == 'Visualization' %}
-      <li>
-        <a href="/{{ post.url }}">
-          <figure>
-            <figcaption>
-              {{ post.title }}
-            </figcaption>
-            <img alt="{{ post.title }}" src="{{ post.thumb }}" />
-          </figure>
-        </a>
-      </li>
+      {% if  6 > forloop.index %}
+        {% if post.category == 'Visualization' %}
+        <li>
+          <a href="/{{ post.url }}">
+            <figure>
+              <figcaption>
+                {{ post.title }}
+              </figcaption>
+              <img alt="{{ post.title }}" src="{{ post.thumb }}" />
+            </figure>
+          </a>
+        </li>
+        {% endif %}
       {% endif %}
     {% endfor %}
   </ul>
