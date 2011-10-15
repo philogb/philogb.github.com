@@ -19,12 +19,12 @@ One important aspect of this visualization is the work put into trying
 to simplify the navigation and exploration of the data set.
 
 You can select airlines to be displayed in the map by using the right
-fish-eye menu. The top part of the menu displays the current selected
-airlines. Clicking on them will center the planet to better display the
+menu. The top part of the menu displays the current selected
+airlines, clicking on them will rotate the earth to better display the
 cities served by the selected airline.
 
-You can also zoom-in and hover the cities to see what city is served by
-a specific airline.
+You can also zoom-in and hover the cities to see more information about
+them.
 
 ![World Flights Picking](/assets/img/worldflights.picking.png)
 
