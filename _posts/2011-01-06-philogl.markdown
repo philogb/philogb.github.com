@@ -25,7 +25,7 @@ here](http://senchalabs.github.com/philogl/).
 
 Some images of projects made with the framework:
 
-![World Flights](http://senchalabs.github.com/philogl/img/marquee/worldflights.png)
+![World Flights](http://senchalabs.github.com/philogl/img/marquee/worldflights2.png)
 
 ![Metaballs](http://senchalabs.github.com/philogl/img/marquee/metaballs.png)
 
