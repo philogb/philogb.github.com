@@ -23,6 +23,9 @@ timeline below the graphic.
 
 ![Markers](/assets/winds/3.png)
 
+**[Click here to access the example](http://senchalabs.github.com/philogl/PhiloGL/examples/winds/). You will need a WebGL capable
+browser (and machine).**
+
 <iframe width="500" height="369" src="http://www.youtube.com/embed/5HOuF6otV9E?rel=0" frameborder="0">
 </iframe>
 
