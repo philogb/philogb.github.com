@@ -27,7 +27,7 @@ You can also zoom-in and hover the cities to see more information about
 them.
 
 
-**[Click here to access the example](http://senchalabs.github.com/philogl/PhiloGL/examples/worldFlights2/). You will need a WebGL capable
+**[Click here to access the example](http://senchalabs.github.com/philogl/PhiloGL/examples/worldFlights/). You will need a WebGL capable
 browser (and machine).**
 
 
