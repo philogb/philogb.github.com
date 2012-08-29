@@ -42,7 +42,11 @@ article {
 }
 
 article img {
-    box-shadow: 0 0 7px #000;
+  box-shadow: 0 0 7px #000;
+}
+
+article.white img {
+  box-shadow: none;
 }
 
 section > header {
@@ -52,7 +56,7 @@ section > header {
 
 section a figure img {
   box-shadow: 0 0 3px #000;
-  
+
   -webkit-transition: box-shadow 700ms;
   -moz-transition: box-shadow 700ms;
   -o-transition: box-shadow 700ms;
