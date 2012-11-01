@@ -5,6 +5,7 @@ permalink: political-engagement-map
 category: Visualization
 tags: [SVG, JavaScript]
 thumb: assets/political-engagement-map.thumb.png
+theme: white
 
 ---
 I worked on an [exploratory data
