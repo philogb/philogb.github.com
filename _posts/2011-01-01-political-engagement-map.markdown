@@ -30,5 +30,5 @@ by clicking on it. For example, [here's what we get about New York](https://elec
 
 ![Political Engagement Map - Topics NY](/assets/pem/3.png)
 
-You can find more insights [on the Twitter blog](http://blog.twitter.com/2012/11/visualizing-2012-election.html).
+This visualization has been featured in [NYTimes](http://bits.blogs.nytimes.com/2012/11/01/new-data-shows-which-candidates-tweets-resonated-most-with-electorate/) and [Wired](http://www.wired.com/gadgetlab/2012/11/twitter-launches-election-map-to-track-candidates-state-by-state-messaging/) among other places. You can find more insights [on the Twitter blog](http://blog.twitter.com/2012/11/visualizing-2012-election.html).
 
