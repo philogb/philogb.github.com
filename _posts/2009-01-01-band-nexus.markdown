@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Band Nexus
-permalink: band-nexus
+permalink: band-nexus-project
 category: Visualization
 tags: [JavaScript]
 thumb: assets/bandtree.thumb.png
