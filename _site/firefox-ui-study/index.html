@@ -26,19 +26,19 @@
 
 <p>We decided that this information could be visualized as a TreeMap in which the area of each node is proportional to the number of times a UI component has been accessed. For example in this image we can see that around 20% of UI interactions happen in the Navigation Toolbar, and it&#8217;s possible to compare the area of this rectangle to others to give us a clue of the overall interactions:</p>
 
-<p><img alt='Navigation Toolbar access tooltip image' src='/assets/modvc/tm1.png' /></p>
+<p><img src='/assets/modvc/tm1.png' alt='Navigation Toolbar access tooltip image' /></p>
 
 <p>Each node also has a color that spans from red to blue, indicating an average of the expertise level of the user interacting with this component.</p>
 
-<p><img alt='Color span gradient' src='/assets/modvc/tm2.png' /></p>
+<p><img src='/assets/modvc/tm2.png' alt='Color span gradient' /></p>
 
 <p>It&#8217;s interesting to note how some components are more often accessed by expert users than by beginners and viceversa. However since we provide an <em>average</em> we lack the information about the <em>real distribution</em> of user skills accessing the component. In order to avoid misleading results, when drilling down the TreeMap PieCharts indicate the real user skill distribution for each UI component interaction.</p>
 
-<p><img alt='PieCharts as nodes for skill distribution' src='/assets/modvc/tm3.png' /></p>
+<p><img src='/assets/modvc/tm3.png' alt='PieCharts as nodes for skill distribution' /></p>
 
 <p>What I believe is by far the most interesting aspect of this visualization is the fact of using the ordinal and nominal information provided by the user survey to provide dynamic filtering for the TreeMap. Dynamic filtering (or morphing) enables an easy comparison between different categories of users on how they interact with these components. The filter panel we provide is shown below:</p>
 
-<p><img alt='Dynamic Filtering Panel' src='/assets/modvc/tm4.png' /></p>
+<p><img src='/assets/modvc/tm4.png' alt='Dynamic Filtering Panel' /></p>
 
 <p>If you&#8217;re interested in taking a look at the visualization and playing with it please go to our <a href='http://blog.thejit.org/assets/modvc/pilot/pilot.html'>entry</a>. Browsers supported are Firefox 4, Opera 10.6+ and the latest of the Webkit family.</p>
 

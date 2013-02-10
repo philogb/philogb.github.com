@@ -15,7 +15,6 @@ title: Nicolas Garcia Belmonte
   </header>
   <ul>
     {% for post in site.posts reversed %}
-      {% if  11 > forloop.index %}
         {% if post.category == 'Visualization' %}
         <li>
           <a href="/{{ post.url }}">
@@ -28,7 +27,6 @@ title: Nicolas Garcia Belmonte
           </a>
         </li>
         {% endif %}
-      {% endif %}
     {% endfor %}
   </ul>
 </section>
