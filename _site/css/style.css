@@ -83,20 +83,21 @@ section#visualizations > ul li {
   margin: 0 3px;
 }
 
-section#software {
+section#software, section#talks {
   text-align: left;
 }
 
-section#software ul {
+section#software ul,
+section#talks ul {
   margin: 20px;
 }
 
-section#software ul li {
+section#software ul li,
+section#talks ul li {
   margin-bottom: 10px;
 }
 
-article {
-
+section#talks time {
 }
 
 nav {

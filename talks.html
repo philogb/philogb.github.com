@@ -1,57 +1,3 @@
----
-layout: default
-title: Nicolas Garcia Belmonte
----
-
-<header id="intro">
-  <h1>Hi, I'm <a href="cv.html">Nicolas Garcia
-      Belmonte</a>. I'm interested in Information Visualization, Web
-    Standards and R&amp;D.</h1>
-</header>
-
-<section id="visualizations">
-  <header>
-    <h2>Data Visualizations</h2>
-  </header>
-  <ul>
-    {% for post in site.posts reversed %}
-        {% if post.category == 'Visualization' %}
-        <li>
-          <a href="/{{ post.url }}">
-            <figure>
-              <figcaption>
-                {{ post.title }}
-              </figcaption>
-              <img alt="{{ post.title }}" src="{{ post.thumb }}" />
-            </figure>
-          </a>
-        </li>
-        {% endif %}
-    {% endfor %}
-  </ul>
-</section>
-
-<section id="software">
-  <header>
-    <h2>Software</h2>
-  </header>
-  <ul>
-    {% for post in site.posts reversed %}
-      {% if post.category == 'Software' %}
-      <li>
-        <img alt="{{ post.title }}" src="{{ post.thumb }}" />
-        <a href="/{{ post.url }}">{{ post.title }}</a> - {{ post.description }}
-      </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
-</section>
-
-<section id="talks">
-  <header>
-    <h2>Talks, Interviews &amp; Articles</h2>
-  </header>
-  <ul>
 <li><time>Feb 2013</time> <a href='http://www.slideshare.net/philogb/exploring-web-standards-for-data-visualization'>Exploring Web Standards for High Data Density Visualizations</a> - Strata Conference at Santa Clara, CA, USA</li>
 <li><time>Oct 2012</time> <a href='http://dev.opera.com/articles/view/webgl-post-processing/'>Article - Image and video post-processing with WebGL</a> - Opera Software</li>
 <li><time>Jun 2012</time> <a href='http://www.fayerwayer.com/2012/06/dos-latinos-en-silicon-valley-fw-interviu/'>Interview for Fayerwayer - Dos Latinos en Silicon Valley</a> - Fayerwayer at Santiago, Chile <a href='http://www.youtube.com/watch?v=W0Ycm3gB4E8'>(video)</a></li>
@@ -68,5 +14,5 @@ title: Nicolas Garcia Belmonte
 <li><time>Sep 2010</time> <a href='http://www.slideshare.net/philogb/javascript-infovis-toolkit-create-interactive-data-visualizations-for-the-web'>JavaScript InfoVis Toolkit 2.0: Interactive Data Visualizations for the Web</a> - JSConf Europe at Berlin, Germany <a href='http://blip.tv/jsconfeu/nicolas-garcia-belmonte-creating-interactive-data-visualizations-for-the-web-4258166'>(video)</a></li>
 <li><time>Nov 2009</time> <a href='http://www.slideshare.net/philogb/using-web-standards-to-create-interactive-data-visualizations-for-the-web'>Using Web Standards to create Interactive Data Visualizations for the Web </a> - Parisian Seminar on Information Visualization and HCI at Paris, France</li>
 <li><time>2007</time> JavaScript and the Web 2.0 - BarCamp at Buenos Aires, Argentina</li>
-  </ul>
-</section>
+<li><time>undefined</time>  - undefined</li>
+<li><time>undefined</time>  - undefined</li>
