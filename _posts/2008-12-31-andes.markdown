@@ -1,0 +1,34 @@
+---
+layout: post
+title: Andes
+permalink: andes
+category: Visualization
+tags: [JavaScript]
+thumb: assets/andes.thumb.png
+
+---
+
+The Andes project creates topographic maps of Tweets for a number of
+cities. It's a remix of the [Billion Strokes visualization](https://blog.twitter.com/2013/geography-tweets-3) by
+[@miguelrios](https://twitter.com/miguelrios). The input data *are* the
+images featured in that visualization.
+
+[You can access the project here](http://twitter.github.io/interactive/andes/). Plase make sure to have a WebGL capable
+machine and browser.
+
+![San Francisco](/assets/andes/sf.png)
+
+The San Francisco elevation map shows interesting elevations "under
+water" in what's the BART path from SF to Oakland. In New York we can
+see elevations for the ferry:
+
+![New York](/assets/andes/ny.png)
+
+I personally like this contour map of Istanbul:
+
+![Istanbul](/assets/andes/is.png)
+
+You can find the Twitter blog post about this visualization [here](https://blog.twitter.com/2013/topography-tweets).
+
+
+
