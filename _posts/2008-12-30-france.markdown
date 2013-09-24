@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mobility flow in France
-permalink: france
+permalink: mobility-flow-france
 category: Visualization
 tags: [JavaScript, WebGL]
 theme: white

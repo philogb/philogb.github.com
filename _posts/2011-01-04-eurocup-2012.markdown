@@ -1,6 +1,6 @@
 ---
 layout: post
-title: #Euro2012 Twitter Visualization
+title: Euro 2012
 permalink: eurocup-2012
 category: Visualization
 tags: [JavaScript InfoVis Toolkit]
