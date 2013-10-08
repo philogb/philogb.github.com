@@ -104,12 +104,12 @@ nav {
   text-align: right;
 }
 
-footer {
+header.address, footer {
   margin: 10px 0;
   font-size: 0.7em;
 }
 
-footer ul li {
+header.address ul li, footer ul li {
   display: inline-block;
   margin: 5px 5px;
 }
