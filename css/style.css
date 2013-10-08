@@ -113,3 +113,8 @@ header.address ul li, footer ul li {
   display: inline-block;
   margin: 5px 5px;
 }
+
+header.address img, footer img {
+  width: 16px;
+  height: 16px;
+}
