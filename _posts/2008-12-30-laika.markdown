@@ -1,0 +1,58 @@
+---
+layout: post
+title: Laika
+permalink: laika
+theme: white
+category: Visualization
+tags: [JavaScript, WebGL]
+thumb: assets/laika.thumb.png
+
+---
+
+![Laika picture](/assets/laika/globe1.png)
+
+Laika is a data visualization showing geolocated activity on Twitter
+around the world. The first iteration of the project was done during
+hackweek. We had great feedback from our CEO and VP of design so per
+request the project turned into a live visual that is currently shown in the
+displays around the office.
+
+The main view shows a globe view, with day and night textures,
+displaying geolocated Tweets and relevant Tweets around news (in the top
+part). Click play to watch the short video.
+
+<video src="/assets/laika/l1.webmhd.webm" controls="true">
+</video>
+
+
+
+Within this globe view we can focus on a particular city and fetch a
+timeline of relevant Tweets happening there. Click below to watch the
+short transition.
+
+<video src="/assets/laika/l22.webmhd.webm" controls="true">
+</video>
+
+
+
+Although people like the globe view, this view hides 50%
+of what's happening in the world at each moment. We added an unfolding
+of the globe into a plane for this. Click play below to watch the short
+video.
+
+<video src="/assets/laika/l3.webmhd.webm" controls="true">
+</video>
+
+
+
+Following the "Overview, zoom and filter" mantra you can focus in a city
+to get relevant Tweets of what's happening there along with news of that
+city.
+
+<video src="/assets/laika/l5.webmhd.webm" controls="true" poster="/assets/laika/poster.png">
+</video>
+
+
+
+You can find a presentation about this visualization [here](http://www.slideshare.net/philogb/interactives-at-twitter-27259565).
+

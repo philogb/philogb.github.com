@@ -43,6 +43,7 @@ article {
 
 article img {
   box-shadow: 0 0 7px #000;
+  max-width: 500px;
 }
 
 article.white img {
