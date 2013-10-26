@@ -30,5 +30,9 @@ I personally like this contour map of Istanbul:
 
 You can find the Twitter blog post about this visualization [here](https://blog.twitter.com/2013/topography-tweets).
 
+Some places where this was featured:
 
+ * [Wired Design](http://www.wired.com/design/2013/07/what-your-tweets-look-like-as-3d-topography/)
+ * [The Verge](http://www.theverge.com/2013/6/28/4475804/twitter-interactive-3d-map-tweet-visualization)
+ * [Engadget](http://www.engadget.com/2013/06/29/topographic-twitter-maps/)
 
