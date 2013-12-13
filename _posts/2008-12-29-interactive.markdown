@@ -12,7 +12,12 @@ thumb: assets/interactive.thumb.png
 At Twitter we've been releasing small interactive data visualizations that
 usually provide context or complement blog posts.
 
-For example, Simon Rogers' blog post about [Twitter's biggest moments](https://blog.twitter.com/2013/behind-the-numbers-how-to-understand-big-moments-on-twitter)
+We created a [visualization of most mentioned #DoctorWho Tweets](http://twitter.github.io/interactive/doctorwho/) for the
+50yr Doctor Who anniversary.
+
+![Interactive DoctorWho](/assets/interactive/doctorwho.png)
+
+Also there's Simon Rogers' blog post about [Twitter's biggest moments](https://blog.twitter.com/2013/behind-the-numbers-how-to-understand-big-moments-on-twitter) which
 was complemented with an [interactive comparing biggest
 moments](http://twitter.github.io/interactive/tpms/).
 
