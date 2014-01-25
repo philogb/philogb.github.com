@@ -52,7 +52,18 @@ city.
 <video src="/assets/laika/l5.webmhd.webm" controls="true" poster="/assets/laika/poster.png">
 </video>
 
+## Touch displays
 
+I extended this visualization recently to support touch displays. Some
+of the features added are dragging the globe, tapping on cities,
+pinching to zoom in/out, etc.
 
-You can find a presentation about this visualization [here](http://www.slideshare.net/philogb/interactives-at-twitter-27259565).
+This was shown at CES 2014 as an official visualization for Twitter and will
+be used in other events like SXSW and more. Here's a video showcasing
+the interactive features:
+
+<iframe width="500" height="281" src="//www.youtube.com/embed/Bnr2MF7FK-A?rel=0" frameborder="0" allowfullscreen="true">
+</iframe>
+
+You can find a presentation about thivisualization below:
 
