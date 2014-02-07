@@ -4,7 +4,7 @@ title: Andes
 permalink: andes
 category: Visualization
 tags: [JavaScript]
-thumb: assets/andes.thumb.png
+thumb: assets/andes/sf.png
 
 ---
 
