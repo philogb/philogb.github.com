@@ -28,7 +28,11 @@ layout: nil
    <id>{{ post.url }}</id>
    {% endif %}
    <content type="html">
-    {{ post.content | xml_escape }}
+    {% if post.content != '' %}
+      {{ post.content | xml_escape }}
+    {% else %}
+    &lt;img src="{{ post.thumb }}" />
+    {% endif %}
    </content>
  </entry>
  {% endfor %}
