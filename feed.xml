@@ -31,7 +31,7 @@ layout: nil
     {% if post.content != '' %}
       {{ post.content | xml_escape }}
     {% else %}
-    &lt;img src="https://philogb.github.io{{ post.thumb }}" />
+    &lt;img src="https://philogb.github.io/{{ post.thumb }}" />
     {% endif %}
    </content>
  </entry>
