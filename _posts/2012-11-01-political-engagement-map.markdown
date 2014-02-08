@@ -4,7 +4,7 @@ title: Political Engagement Map
 permalink: political-engagement-map
 category: Visualization
 tags: [SVG, JavaScript]
-thumb: assets/political-engagement-map.thumb.png
+thumb: assets/pem/1.png
 theme: white
 
 ---

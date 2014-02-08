@@ -4,7 +4,7 @@ title: Euro 2012
 permalink: eurocup-2012
 category: Visualization
 tags: [JavaScript InfoVis Toolkit]
-thumb: assets/euro2012.thumb.png
+thumb: assets/euro2012/1.png
 theme: white
 
 ---

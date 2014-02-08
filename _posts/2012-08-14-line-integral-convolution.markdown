@@ -4,7 +4,7 @@ title: Line Integral Convolution
 permalink: line-integral-convolution
 category: Visualization
 tags: [WebGL, PhiloGL]
-thumb: assets/lic.thumb.png
+thumb: assets/lic/1.png
 
 ---
 
@@ -16,8 +16,7 @@ field:
 
 ![Magnetic dipole visualization](/assets/lic/magnet.png)
 
-These same techniques can be applied to visualize flows. [Here's an
-example](http://philogb.github.com/LIC/fluid.html).
+These same techniques can be applied to visualize flows. [Here's an example](http://philogb.github.com/LIC/fluid.html).
 
 ![Flow visualization](/assets/lic/flow.png)
 

@@ -4,7 +4,7 @@ title: Wallpaper Groups
 permalink: wallpaper-groups
 category: Visualization
 tags: [JavaScript, WebGL]
-thumb: assets/groups.thumb.png
+thumb: assets/groups/1.png
 
 ---
 

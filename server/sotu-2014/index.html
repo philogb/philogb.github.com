@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>State of the Union Address 2014</title>
+  <meta charset="utf-8" />
+  <meta name="copyright" content="Nicolas Garcia Belmonte" />
+  <link rel="shortcut icon" type="image/ico" href="/assets/img/blog.png" />
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection, handheld" />
+</head>
+<body>
+  <header class="address">
+  <address>
+    <ul>
+      <li>
+      <a href="mailto:philogb@gmail.com">
+        <img alt="mail" title="mail" src="/assets/img/gmail.png" />
+      </a>
+      </li>
+      <li>
+      <a href="http://twitter.com/philogb/">
+        <img alt="twitter" title="twitter" src="/assets/img/twitter.png" />
+      </a>
+      </li>
+      <li>
+      <a href="http://www.linkedin.com/in/nicolasbelmonte">
+        <img alt="linkedin" title="linkedin" src="/assets/img/linkedin.png" />
+      </a>
+      </li>
+      <li>
+      <a href="http://www.flickr.com/photos/46627889@N02/">
+        <img alt="flickr" title="flickr" src="/assets/img/flickr.png" />
+      </a>
+      </li>
+      <li>
+      <a href="http://philogb.github.com/blog">
+        <img alt="blog" title="blog" src="/assets/img/blog.png" />
+      </a>
+      </li>
+      <!--<li>-->
+      <!--<a href="http://philogb.github.com/notes">-->
+        <!--<img alt="notes" title="notes" src="/assets/img/notes.png" />-->
+      <!--</a>-->
+      <!--</li>-->
+    </ul>
+  </address>
+  </header>
+
+  <article class='white'>
+  <nav>
+    <a href="/">Back to Home</a>
+  </nav>
+
+  <header>
+    <h1>State of the Union Address 2014</h1>
+  </header>
+
+  <p><img alt='Map picture' src='/assets/philippines/1.png' /></p>
+
+<p>When Typhoon Haiyan struck the Philippines on November 7 it was the strongest tropical storm ever to hit land. Thousands of people have called for help and donations on Twitter. <a href='http://twitter.github.io/interactive/philippines/'>This interactive map</a> shows every geotagged Tweet mentioning the word ‘help’ (in 22 different languages) combined with key terms around the disaster.</p>
+
+<h2 id='the_visualization_technique'>The visualization technique</h2>
+
+<p>The visualization uses a <a href='http://github.com/philogb/mingle'>JavaScript implementation</a> of the paper <a href='http://www2.research.att.com/~yifanhu/PUB/edge_bundling.pdf'>Multilevel Agglomerative Edge Bundling for Visualizing Large Graphs</a> (Emden R. Gansner, Yifan Hu, Stephen North, Carlos Scheidegger).</p>
+
+<p>The edge bundling algorithm groups edges together to minimize the amount of ink used to render a graph. This particular paper introduces a fast technique to perform edge bundling.</p>
+
+<p>Take for example this map connecting locations between the east coast in the US and western Europe:</p>
+
+<p><img alt='easteurope image 1' src='https://raw.github.com/philogb/mingle/master/img/easteurope1.png' /></p>
+
+<p>The algorithm creates a proximity graph for the edges where each of the edges is represented by a node. Then the algorithm bundles edges as long as we&#8217;re saving some ink in the final rendering. Here&#8217;s an intermediate step on the bundling animation:</p>
+
+<p><img alt='easteurope image 1' src='https://raw.github.com/philogb/mingle/master/img/easteurope2.png' /></p>
+
+<p>And here&#8217;s the final result:</p>
+
+<p><img alt='easteurope image 1' src='https://raw.github.com/philogb/mingle/master/img/easteurope3.png' /></p>
+
+</article>
+
+
+
+
+<footer>
+  <address>
+  <ul>
+    <li>
+    <a href="mailto:philogb@gmail.com">
+      <img alt="mail" title="mail" src="/assets/img/gmail.png" />
+    </a>
+    </li>
+    <li>
+    <a href="http://twitter.com/philogb/">
+      <img alt="twitter" title="twitter" src="/assets/img/twitter.png" />
+    </a>
+    </li>
+    <li>
+    <a href="http://www.linkedin.com/in/nicolasbelmonte">
+      <img alt="linkedin" title="linkedin" src="/assets/img/linkedin.png" />
+    </a>
+    </li>
+    <li>
+    <a href="http://www.flickr.com/photos/46627889@N02/">
+      <img alt="flickr" title="flickr" src="/assets/img/flickr.png" />
+    </a>
+    </li>
+    <li>
+    <a href="http://philogb.github.com/blog">
+      <img alt="blog" title="blog" src="/assets/img/blog.png" />
+    </a>
+    </li>
+    <!--<li>-->
+    <!--<a href="http://philogb.github.com/notes">-->
+      <!--<img alt="notes" title="notes" src="/assets/img/notes.png" />-->
+    <!--</a>-->
+    <!--</li>-->
+  </ul>
+  </address>
+
+  Copyright &copy; Nicolas Garcia Belmonte.
+</footer>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1601691-10']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

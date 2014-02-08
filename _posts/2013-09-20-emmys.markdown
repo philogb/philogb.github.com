@@ -5,7 +5,8 @@ permalink: interactives
 theme: white
 category: Visualization
 tags: [Visualization]
-thumb: assets/interactive.thumb.png
+thumb: assets/emmys/1.png
+fullurl: https://blog.twitter.com/2013/visualizing-tweets-around-emmy-nominated-shows
 
 ---
 

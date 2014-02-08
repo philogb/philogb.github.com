@@ -1,14 +1,14 @@
---- 
+---
 layout: post
 title: World Flights
 permalink: world-flights
 category: Visualization
 tags: [WebGL, PhiloGL]
-thumb: assets/worldflights.thumb.png
+thumb: assets/worldflights/1.png
 
 ---
 
-![World Flights image](http://senchalabs.github.com/philogl/img/marquee/worldflights2.png)
+![World Flights image](/assets/worldflights/1.png)
 
 
 World Flights is a data visualization that shows flying routes

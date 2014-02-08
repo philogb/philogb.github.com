@@ -5,7 +5,8 @@ permalink: mobility-flow-france
 category: Visualization
 tags: [JavaScript, WebGL]
 theme: white
-thumb: assets/france.thumb.png
+thumb: assets/france/county.png
+
 ---
 
 [Click here to access the map](http://philogb.github.io/france/) (A WebGL capable browser and computer

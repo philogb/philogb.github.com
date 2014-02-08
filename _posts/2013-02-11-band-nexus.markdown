@@ -4,7 +4,7 @@ title: Band Nexus
 permalink: band-nexus-project
 category: Visualization
 tags: [JavaScript]
-thumb: assets/bandtree.thumb.png
+thumb: assets/bandtree/1.png
 
 ---
 

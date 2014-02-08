@@ -14,20 +14,7 @@ title: Nicolas Garcia Belmonte
     <h2>Data Visualizations</h2>
   </header>
   <ul>
-    {% for post in site.posts reversed %}
-        {% if post.category == 'Visualization' %}
-        <li>
-          <a href="{{ post.url }}">
-            <figure>
-              <figcaption>
-                {{ post.title }}
-              </figcaption>
-              <img alt="{{ post.title }}" src="{{ post.thumb }}" />
-            </figure>
-          </a>
-        </li>
-        {% endif %}
-    {% endfor %}
+    {% for post in site.posts %}{% if post.category == 'Visualization' %}<li><a href="{% if post.fullurl %}{{post.fullurl}}{% else %}{{ post.url }}{% endif %}"><figure><div class="image" style="background-image: url({{ post.thumb }}); {% if post.position %}background-position: {{post.position}} {% endif %}"></div><figcaption>{{ post.title }}</figcaption></figure></a></li>{% endif %}{% endfor %}
   </ul>
 </section>
 
@@ -54,8 +41,10 @@ title: Nicolas Garcia Belmonte
   <ul>
 <li><time>Dec 2013</time> <a
   href='https://speakerdeck.com/philogb/growing-a-language-for-graphics-dotjs'>Growing
-a Language for Graphics</a> - DotJS in Paris, France</li>
-<li><time>Oct 2013</time> <a href='http://www.slideshare.net/philogb/interactives-at-twitter-27259565'>#Interactive: Data Visualization at Twitter</a> - Data Visualization Meetup at Twitter HQs, San Francisco, CA <a href='www.youtube.com/watch?v=Bgu_OsA7qNQ'>(video)</a></li>
+a Language for Graphics</a> - DotJS in Paris, France <a href='http://www.youtube.com/watch?v=x_Fx92X06Yk'>(video)</a></li>
+<li><time>Oct 2013</time> <a
+  href='http://www.slideshare.net/philogb/interactives-at-twitter-27259565'>#Interactive:
+  Data Visualization at Twitter</a> - Data Visualization Meetup at Twitter HQs, San Francisco, CA <a href='http://www.youtube.com/watch?v=Bgu_OsA7qNQ'>(video)</a></li>
 <li><time>May 2013</time> <a href='http://www.slideshare.net/philogb/talk-2013-sudweb'>La visualisation de données comme outil pour découvrir et partager des idées sur le Web</a> - SudWeb 2013 at Avignon, France <a href='http://vimeo.com/album/2451288/video/70464555'>(video)</a></li>
 <li><time>Feb 2013</time> <a href='http://www.slideshare.net/philogb/exploring-web-standards-for-data-visualization'>Exploring Web Standards for High Data Density Visualizations</a> - Strata Conference at Santa Clara, CA, USA</li>
 <li><time>Oct 2012</time> <a href='http://dev.opera.com/articles/view/webgl-post-processing/'>Article - Image and video post-processing with WebGL</a> - Opera Software</li>

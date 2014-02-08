@@ -31,7 +31,11 @@ a, a:visited {
   color: #00a;
 }
 
-section, article, header#intro {
+section {
+  margin: 50px;
+}
+
+article, header#intro {
     width: 950px;
     margin: 20px auto;
 }
@@ -51,21 +55,29 @@ article.white img {
 }
 
 section > header {
-  text-align: right;
-  border-bottom: 1px solid #aaa;
+  text-align: left;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+  /*text-transform: uppercase;*/
 }
 
-section a figure img {
-  box-shadow: 0 0 3px #000;
+section a figure {
+  text-align: left;
+  /*text-transform: uppercase;*/
+  color: #666;
+}
 
-  -webkit-transition: box-shadow 700ms;
-  -moz-transition: box-shadow 700ms;
-  -o-transition: box-shadow 700ms;
-  transition: box-shadow 700ms;
+section a figure .image {
+  width: 100%;
+  padding-bottom: 60%;
+  margin: 0;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  border: 1px solid #efefef;
 }
 
 section a:hover figure img {
-  box-shadow: 0 0 18px #000;
 }
 
 section figcaption {
@@ -78,10 +90,15 @@ section#visualizations a {
   color: #000 !important;
 }
 
+section#visualizations ul {
+  text-align: left;
+}
+
 section#visualizations > ul li {
   display: inline-block;
-  width: 180px;
-  margin: 0 3px;
+  vertical-align: top;
+  width: 31%;
+  margin: 30px 2% 0 0;
 }
 
 section#software, section#talks {
@@ -118,4 +135,13 @@ header.address ul li, footer ul li {
 header.address img, footer img {
   width: 16px;
   height: 16px;
+}
+
+@media screen and (max-width: 1300px) {
+  section#visualizations > ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin: 30px 2% 0 0;
+  }
 }

@@ -4,7 +4,7 @@ title: Neil Armstrong Video
 permalink: neil-armstrong
 category: Visualization
 tags: [WebGL, Video]
-thumb: assets/armstrong.thumb.png
+thumb: assets/armstrong/1.png
 
 ---
 
