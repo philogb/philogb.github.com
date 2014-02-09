@@ -9,5 +9,3 @@ theme: white
 fullurl: https://blog.twitter.com/2014/visualizing-reactions-to-the-sotu
 
 ---
-
-
