@@ -101,6 +101,12 @@ section#visualizations > ul li {
   margin: 30px 2% 0 0;
 }
 
+section#visualizations > ul li:nth-child(n + 4) {
+  width: 17%;
+  margin: 30px 3% 0 0;
+}
+
+
 section#software, section#talks {
   text-align: left;
 }
@@ -144,4 +150,10 @@ header.address img, footer img {
     width: 48%;
     margin: 30px 2% 0 0;
   }
+
+  section#visualizations > ul li:nth-child(n + 3) {
+    width: 23%;
+    margin: 30px 2% 0 0;
+  }
+
 }
