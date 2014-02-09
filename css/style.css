@@ -102,7 +102,7 @@ section#visualizations > ul li {
 }
 
 section#visualizations > ul li:nth-child(n + 4) {
-  width: 17%;
+  width: 22%;
   margin: 30px 3% 0 0;
 }
 
@@ -152,8 +152,8 @@ header.address img, footer img {
   }
 
   section#visualizations > ul li:nth-child(n + 3) {
-    width: 23%;
-    margin: 30px 2% 0 0;
+    width: 32%;
+    margin: 30px 1% 0 0;
   }
 
 }
