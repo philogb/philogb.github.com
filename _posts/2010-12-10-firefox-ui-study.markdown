@@ -4,7 +4,7 @@ title: Firefox 4 UI Study
 permalink: firefox-ui-study
 category: Visualization
 tags: [Canvas, JavaScript InfoVis Toolkit]
-thumb: assets/modvc/1.png
+thumb: assets/modvc/1.jpg
 
 ---
 

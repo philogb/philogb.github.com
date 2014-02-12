@@ -4,11 +4,11 @@ title: Parametric Surface Explorer
 permalink: surface-explorer
 category: Visualization
 tags: [WebGL, PhiloGL]
-thumb: assets/explorer/1.png
+thumb: assets/explorer/1.jpg
 
 ---
 
-![3D Parametric Surfaces](/assets/explorer/1.png)
+![3D Parametric Surfaces](/assets/explorer/1.jpg)
 
 Exploring 3D surfaces is a fun way to learn about geometry,
 physical phenomena or even terrain modeling. Parametric surfaces

@@ -4,7 +4,7 @@ title: State of the Union Address 2014
 permalink: sotu-2014
 category: Visualization
 tags: [JavaScript, JavaScript InfoVis Toolkit, Twitter]
-thumb: assets/sotu/1.png
+thumb: assets/sotu/1.jpg
 theme: white
 fullurl: https://blog.twitter.com/2014/visualizing-reactions-to-the-sotu
 

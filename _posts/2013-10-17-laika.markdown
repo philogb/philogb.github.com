@@ -5,7 +5,7 @@ permalink: laika
 theme: white
 category: Visualization
 tags: [JavaScript, WebGL]
-thumb: assets/laika/1.png
+thumb: assets/laika/1.jpg
 position: center center
 
 ---

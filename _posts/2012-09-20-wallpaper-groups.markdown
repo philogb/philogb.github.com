@@ -4,7 +4,7 @@ title: Wallpaper Groups
 permalink: wallpaper-groups
 category: Visualization
 tags: [JavaScript, WebGL]
-thumb: assets/groups/1.png
+thumb: assets/groups/1.jpg
 
 ---
 
@@ -15,7 +15,7 @@ While exploring [symmetry](http://en.wikipedia.org/wiki/Symmetry) I got interest
 I worked on a shader based implementation of
 them that could generate nice patterns like the one below:
 
-![Image](/assets/groups/1.png)
+![Image](/assets/groups/1.jpg)
 
 You can access the app by [clicking on this link](http://www.senchalabs.org/philogl/PhiloGL/examples/groups/). Remember that you
 need to have a WebGL enabled browser.

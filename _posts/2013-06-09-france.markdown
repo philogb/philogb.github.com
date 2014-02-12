@@ -5,7 +5,7 @@ permalink: mobility-flow-france
 category: Visualization
 tags: [JavaScript, WebGL]
 theme: white
-thumb: assets/france/county.png
+thumb: assets/france/county.jpg
 
 ---
 

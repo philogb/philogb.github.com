@@ -3,7 +3,7 @@ layout: post
 title: 2014 Winter Olympics
 category: Visualization
 tags: [JavaScript, Twitter]
-thumb: assets/sochi/1.png
+thumb: assets/sochi/1.jpg
 fullurl: http://twitter.github.io/interactive/sochi
 permalink: sochi
 

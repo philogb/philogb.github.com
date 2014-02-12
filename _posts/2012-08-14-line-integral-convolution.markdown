@@ -4,7 +4,7 @@ title: Line Integral Convolution
 permalink: line-integral-convolution
 category: Visualization
 tags: [WebGL, PhiloGL]
-thumb: assets/lic/1.png
+thumb: assets/lic/1.jpg
 
 ---
 

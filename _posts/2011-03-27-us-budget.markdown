@@ -5,7 +5,7 @@ permalink: us-budget
 category: Visualization
 tags: [Canvas, Google DataViz Challenge, JavaScript InfoVis Toolkit]
 collaborations: [Luz Caballero]
-thumb: assets/dataviz/1.png
+thumb: assets/dataviz/1.jpg
 theme: white
 
 ---

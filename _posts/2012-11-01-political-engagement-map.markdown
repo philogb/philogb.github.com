@@ -4,7 +4,7 @@ title: Political Engagement Map
 permalink: political-engagement-map
 category: Visualization
 tags: [SVG, JavaScript]
-thumb: assets/pem/1.png
+thumb: assets/pem/1.jpg
 theme: white
 
 ---
@@ -13,7 +13,7 @@ visualization](https://election.twitter.com/map) at Twitter that tracks
 engagement in the US for tweets from the candidates. [You can see the
 article on the Twitter blog here](http://blog.twitter.com/2012/11/visualizing-2012-election.html).
 
-![Political Engagement Map](/assets/pem/1.png)
+![Political Engagement Map](/assets/pem/1.jpg)
 
 There are some interesting insights from the visualization summarized in
 the blog post too. For example, searching for tweets with the "coal"

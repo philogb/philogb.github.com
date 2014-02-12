@@ -5,11 +5,11 @@ permalink: color-analysis
 category: Visualization
 tags: [WebGL, PhiloGL]
 collaborations: [Luz Caballero]
-thumb: assets/histogram/1.png
+thumb: assets/histogram/1.jpg
 
 ---
 
-![3D color Histogram Analysis](/assets/histogram/1.png)
+![3D color Histogram Analysis](/assets/histogram/1.jpg)
 
 Color decomposition on [RGB](http://en.wikipedia.org/wiki/RGB_color_model#Geometric_representation)
 or [other color schemes](http://en.wikipedia.org/wiki/HSL_and_HSV) takes a

@@ -3,7 +3,7 @@ layout: post
 title: Twitter's biggest moments
 category: Visualization
 tags: [JavaScript, Twitter]
-thumb: assets/tpms/1.png
+thumb: assets/tpms/1.jpg
 theme: white
 fullurl: https://blog.twitter.com/2013/behind-the-numbers-how-to-understand-big-moments-on-twitter
 permalink: pem

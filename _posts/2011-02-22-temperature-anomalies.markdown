@@ -4,11 +4,11 @@ title: World Temperature Anomalies
 permalink: temperature-anomalies
 category: Visualization
 tags: [WebGL, PhiloGL, NASA]
-thumb: assets/tanomalies/1.png
+thumb: assets/tanomalies/1.jpg
 
 ---
 
-![World temperature anomalies image](/assets/tanomalies/1.png)
+![World temperature anomalies image](/assets/tanomalies/1.jpg)
 
 
 NASA collects year by year data about temperature changes around the globe.

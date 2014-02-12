@@ -4,7 +4,7 @@ title: Philippines
 permalink: help-the-philippines
 category: Visualization
 tags: [JavaScript, WebGL, Twitter]
-thumb: assets/philippines/2.png
+thumb: assets/philippines/2.jpg
 theme: white
 
 ---

@@ -4,14 +4,14 @@ title: Band Nexus
 permalink: band-nexus-project
 category: Visualization
 tags: [JavaScript]
-thumb: assets/bandtree/1.png
+thumb: assets/bandtree/1.jpg
 
 ---
 
 [Band Nexus](http://philogb.github.com/band-nexus) is a data visualization that explores relationships
 between bands and artists.
 
-![Tree Image](/assets/bandtree/1.png)
+![Tree Image](/assets/bandtree/1.jpg)
 
 Each node represents a band or an artist. Two nodes are connected if for
 example an artist took part of the band at some point in time or collaborated in some way

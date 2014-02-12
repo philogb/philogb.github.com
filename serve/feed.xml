@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Nicolas Garcia Belmonte: Data visualizations</title>
+ <link href="http://philogb.github.io/feed.xml" rel="self"/>
+ <link href="http://philogb.github.io/"/>
+ <updated>2014-02-11T18:28:49-08:00</updated>
+ <id>http://philogb.github.io/</id>
+ <author>
+   <name>Nicolas Garcia Belmonte</name>
+   <email>philogb@gmail.com</email>
+ </author>
+ 
+ <entry>
+   <title>2014 Winter Olympics</title>
+   
+    <link href="http://twitter.github.io/interactive/sochi"/>
+   
+   <updated>2014-02-06T00:00:00-08:00</updated>
+   
+   <id>http://twitter.github.io/interactive/sochi</id>
+   
+   <content type="html">
+    
+    &lt;img src="http://philogb.github.io/assets/sochi/1.jpg" />
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>State of the Union Address 2014</title>
+   
+    <link href="https://blog.twitter.com/2014/visualizing-reactions-to-the-sotu"/>
+   
+   <updated>2014-01-29T00:00:00-08:00</updated>
+   
+   <id>https://blog.twitter.com/2014/visualizing-reactions-to-the-sotu</id>
+   
+   <content type="html">
+    
+    &lt;img src="http://philogb.github.io/assets/sotu/1.jpg" />
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Philippines</title>
+   
+    <link href="help-the-philippines"/>
+   
+   <updated>2013-12-16T00:00:00-08:00</updated>
+   
+   <id>help-the-philippines</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;&lt;img alt='Map picture' src='/assets/philippines/1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;When Typhoon Haiyan struck the Philippines on November 7 it was the strongest tropical storm ever to hit land. Thousands of people have called for help and donations on Twitter. &lt;a href='http://twitter.github.io/interactive/philippines/'&gt;This interactive map&lt;/a&gt; shows every geotagged Tweet mentioning the word ‘help’ (in 22 different languages) combined with key terms around the disaster.&lt;/p&gt;
+
+&lt;h2 id='the_visualization_technique'&gt;The visualization technique&lt;/h2&gt;
+
+&lt;p&gt;The visualization uses a &lt;a href='http://github.com/philogb/mingle'&gt;JavaScript implementation&lt;/a&gt; of the paper &lt;a href='http://www2.research.att.com/~yifanhu/PUB/edge_bundling.pdf'&gt;Multilevel Agglomerative Edge Bundling for Visualizing Large Graphs&lt;/a&gt; (Emden R. Gansner, Yifan Hu, Stephen North, Carlos Scheidegger).&lt;/p&gt;
+
+&lt;p&gt;The edge bundling algorithm groups edges together to minimize the amount of ink used to render a graph. This particular paper introduces a fast technique to perform edge bundling.&lt;/p&gt;
+
+&lt;p&gt;Take for example this map connecting locations between the east coast in the US and western Europe:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='easteurope image 1' src='https://raw.github.com/philogb/mingle/master/img/easteurope1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;The algorithm creates a proximity graph for the edges where each of the edges is represented by a node. Then the algorithm bundles edges as long as we&amp;#8217;re saving some ink in the final rendering. Here&amp;#8217;s an intermediate step on the bundling animation:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='easteurope image 1' src='https://raw.github.com/philogb/mingle/master/img/easteurope2.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;And here&amp;#8217;s the final result:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='easteurope image 1' src='https://raw.github.com/philogb/mingle/master/img/easteurope3.png' /&gt;&lt;/p&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Doctor Who</title>
+   
+    <link href="http://twitter.github.io/interactive/doctorwho"/>
+   
+   <updated>2013-11-22T00:00:00-08:00</updated>
+   
+   <id>http://twitter.github.io/interactive/doctorwho</id>
+   
+   <content type="html">
+    
+    &lt;img src="http://philogb.github.io/assets/doctorwho/1.jpg" />
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Laika</title>
+   
+    <link href="laika"/>
+   
+   <updated>2013-10-17T00:00:00-07:00</updated>
+   
+   <id>laika</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;&lt;img alt='Laika picture' src='/assets/laika/globe1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Laika is a data visualization showing geolocated activity on Twitter around the world. The first iteration of the project was done during hackweek. We had great feedback from our CEO and VP of design so per request the project turned into a live visual that is currently shown in the displays around the office.&lt;/p&gt;
+
+&lt;p&gt;The main view shows a globe view, with day and night textures, displaying geolocated Tweets and relevant Tweets around news (in the top part). Click play to watch the short video.&lt;/p&gt;
+&lt;video src='/assets/laika/l1.webmhd.webm' controls='true'&gt;
+&lt;/video&gt;
+&lt;p&gt;Within this globe view we can focus on a particular city and fetch a timeline of relevant Tweets happening there. Click below to watch the short transition.&lt;/p&gt;
+&lt;video src='/assets/laika/l22.webmhd.webm' controls='true'&gt;
+&lt;/video&gt;
+&lt;p&gt;Although people like the globe view, this view hides 50% of what&amp;#8217;s happening in the world at each moment. We added an unfolding of the globe into a plane for this. Click play below to watch the short video.&lt;/p&gt;
+&lt;video src='/assets/laika/l3.webmhd.webm' controls='true'&gt;
+&lt;/video&gt;
+&lt;p&gt;Following the &amp;#8220;Overview, zoom and filter&amp;#8221; mantra you can focus in a city to get relevant Tweets of what&amp;#8217;s happening there along with news of that city.&lt;/p&gt;
+&lt;video poster='/assets/laika/poster.png' src='/assets/laika/l5.webmhd.webm' controls='true'&gt;
+&lt;/video&gt;
+&lt;h2 id='touch_displays'&gt;Touch displays&lt;/h2&gt;
+
+&lt;p&gt;I extended this visualization recently to support touch displays. Some of the features added are dragging the globe, tapping on cities, pinching to zoom in/out, etc.&lt;/p&gt;
+
+&lt;p&gt;This was shown at CES 2014 as an official visualization for Twitter and will be used in other events like SXSW and more. Here&amp;#8217;s a video showcasing the interactive features:&lt;/p&gt;
+&lt;iframe frameborder='0' src='//www.youtube.com/embed/Bnr2MF7FK-A?rel=0' width='500' allowfullscreen='true' height='281'&gt;
+&lt;/iframe&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Interactives</title>
+   
+    <link href="https://blog.twitter.com/2013/visualizing-tweets-around-emmy-nominated-shows"/>
+   
+   <updated>2013-09-20T00:00:00-07:00</updated>
+   
+   <id>https://blog.twitter.com/2013/visualizing-tweets-around-emmy-nominated-shows</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;At Twitter we&amp;#8217;ve been releasing small interactive data visualizations that usually provide context or complement blog posts.&lt;/p&gt;
+
+&lt;p&gt;We created a &lt;a href='http://twitter.github.io/interactive/doctorwho/'&gt;visualization of most mentioned #DoctorWho Tweets&lt;/a&gt; for the 50yr Doctor Who anniversary.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Interactive DoctorWho' src='/assets/interactive/doctorwho.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Also there&amp;#8217;s Simon Rogers&amp;#8217; blog post about &lt;a href='https://blog.twitter.com/2013/behind-the-numbers-how-to-understand-big-moments-on-twitter'&gt;Twitter&amp;#8217;s biggest moments&lt;/a&gt; which was complemented with an &lt;a href='http://twitter.github.io/interactive/tpms/'&gt;interactive comparing biggest moments&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Interactive of Twitter biggest moments' src='/assets/interactive/tpms.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;We also worked on an interactive for the Emmys. &lt;a href='http://twitter.github.io/interactive/emmys2013/'&gt;This interactive&lt;/a&gt; shows TV shows by category, plus total and average number of Tweets per episode. Here&amp;#8217;s the &lt;a href='https://blog.twitter.com/2013/visualizing-tweets-around-emmy-nominated-shows'&gt;blog post&lt;/a&gt; also done by the Twitter media team.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Interactive of Emmys' src='/assets/interactive/emmys.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Most the work here is generally done within the week, having these as &amp;#8220;small&amp;#8221; visualizations that complement stories.&lt;/p&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Twitter's biggest moments</title>
+   
+    <link href="https://blog.twitter.com/2013/behind-the-numbers-how-to-understand-big-moments-on-twitter"/>
+   
+   <updated>2013-08-08T00:00:00-07:00</updated>
+   
+   <id>https://blog.twitter.com/2013/behind-the-numbers-how-to-understand-big-moments-on-twitter</id>
+   
+   <content type="html">
+    
+    &lt;img src="http://philogb.github.io/assets/tpms/1.jpg" />
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Andes</title>
+   
+    <link href="andes"/>
+   
+   <updated>2013-06-28T00:00:00-07:00</updated>
+   
+   <id>andes</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;The Andes project creates topographic maps of Tweets for a number of cities. It&amp;#8217;s a remix of the &lt;a href='https://blog.twitter.com/2013/geography-tweets-3'&gt;Billion Strokes visualization&lt;/a&gt; by &lt;a href='https://twitter.com/miguelrios'&gt;@miguelrios&lt;/a&gt;. The input data &lt;em&gt;are&lt;/em&gt; the images featured in that visualization.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://twitter.github.io/interactive/andes/'&gt;You can access the project here&lt;/a&gt;. Plase make sure to have a WebGL capable machine and browser.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='San Francisco' src='/assets/andes/sf.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;The San Francisco elevation map shows interesting elevations &amp;#8220;under water&amp;#8221; in what&amp;#8217;s the BART path from SF to Oakland. In New York we can see elevations for the ferry:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='New York' src='/assets/andes/ny.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;I personally like this contour map of Istanbul:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Istanbul' src='/assets/andes/is.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can find the Twitter blog post about this visualization &lt;a href='https://blog.twitter.com/2013/topography-tweets'&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some places where this was featured:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://www.wired.com/design/2013/07/what-your-tweets-look-like-as-3d-topography/'&gt;Wired Design&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://www.theverge.com/2013/6/28/4475804/twitter-interactive-3d-map-tweet-visualization'&gt;The Verge&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://www.engadget.com/2013/06/29/topographic-twitter-maps/'&gt;Engadget&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Mobility flow in France</title>
+   
+    <link href="mobility-flow-france"/>
+   
+   <updated>2013-06-09T00:00:00-07:00</updated>
+   
+   <id>mobility-flow-france</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;&lt;a href='http://philogb.github.io/france/'&gt;Click here to access the map&lt;/a&gt; (A WebGL capable browser and computer is required).&lt;/p&gt;
+
+&lt;p&gt;A few months ago I spoke at Strata in Santa Clara, CA. My presentation was about &lt;a href='http://strata.oreilly.com/2013/01/exploring-web-standards-for-high-data-density-visualizations.html'&gt;Exploring Web Standards for Data Visualization&lt;/a&gt; and in the presentation I showed some examples of visualizations done at Twitter with HTML/SVG, 2d Canvas and WebGL.&lt;/p&gt;
+
+&lt;p&gt;I also showed a custom visualization of the mobility flow in France (i.e. how people moved from state to state in the past five years) and an attempt at visualizing this pretty rich dataset (&amp;gt; 45,000 entries) with different standards. &lt;a href='http://philogb.github.io/france'&gt;You can find the result of the visualization here&lt;/a&gt;. Please make sure you have a WebGL capable browser (and machine) to view it.&lt;/p&gt;
+
+&lt;p&gt;Although this is a pretty classical map, the work was inpired by Jacques Bertin&amp;#8217;s &lt;em&gt;Semiology of Graphics&lt;/em&gt;. Since he was a french cartographer his book is filled with maps and cartograms of France for different datasets.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Jacques Bertins maps' src='/assets/france/bertin.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;The visualization has two types of maps. The first one is an aggregated map by state and county, where states are reddish if the overall state population increased in the past five years, and a more blueish color if the population decreased. Clicking on a state will show this information at a county level.&lt;/p&gt;
+
+&lt;p&gt;The other map shows mobility flow for a selected state. It gets triggered when a state is hovered more than 2 seconds. In that map reddish states are the ones getting people from the current hovered state and blueish states are states where people moved to the hovered state.&lt;/p&gt;
+
+&lt;p&gt;Following the second map there are some interesting insights. For example, if you hover on Paris you&amp;#8217;ll note that most people move from the city centre to the suburbs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='map1' src='/assets/france/1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you hover the suburbs, you&amp;#8217;ll see people going even further away from Paris. If you follow this pattern you&amp;#8217;ll find that a lot of people are moving from Paris to Bretagne:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='map3' src='/assets/france/3.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another interesting fact is that if you hover some state in the south of France you&amp;#8217;ll see a lot of people from everywhere else going there, except for Paris: in that case there are lots of people going from the south of France to Paris.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='map4' src='/assets/france/4.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are other interesting patterns too. I think this does a better job than the &lt;a href='http://www.forbes.com/special-report/2011/migration.html'&gt;US mobility map&lt;/a&gt;. The US map does not show information when there&amp;#8217;s no interaction, and when there is the edges added to the viz occlude the actual color of the states and things become hard to read.&lt;/p&gt;
+
+&lt;h3 id='standards_used'&gt;Standards Used&lt;/h3&gt;
+
+&lt;p&gt;One of the challenges for the visualization was to display data at the county level:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='counties' src='/assets/france/county.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;I first tried to just simply load the SVG county map of France, but this just took too long:&lt;/p&gt;
+&lt;video width='480' controls='true'&gt;
+  &lt;source src='/assets/france/france-svg.mp4' type='video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;' /&gt;
+  &lt;source src='/assets/france/france-svg.webm' /&gt;
+&lt;/video&gt;
+&lt;p&gt;I know it looks like a neat animation, but this is actually the result of loading the county svg map (without caching) in chrome. It takes more than 30 seconds to load!&lt;/p&gt;
+
+&lt;p&gt;Instead I tried a layered approach, in which different layers for maps of France where loaded. One for the contours, another for the data itself and a last one for the picking / interactions.&lt;/p&gt;
+
+&lt;p&gt;For picking we used a map in which each state has a different color, same for the counties.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='maps with counties colored' src='/assets/france/counties.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;When a user hovers a state or county, we can retrieve the color of the pixel under the cursor in the picking maps, and so we get an id for the state to retrieve information from. I explained this technique of color picking before in examples like the &lt;a href='/blog/2012/02/27/wind-motion-patterns/'&gt;wind map&lt;/a&gt; and the &lt;a href='http://www.senchalabs.org/philogl/PhiloGL/examples/worldFlights/'&gt;flight patterns visualization&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The result is a smooth interactive visualization that fully uses the GPU to render.&lt;/p&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Band Nexus</title>
+   
+    <link href="band-nexus-project"/>
+   
+   <updated>2013-02-11T00:00:00-08:00</updated>
+   
+   <id>band-nexus-project</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;&lt;a href='http://philogb.github.com/band-nexus'&gt;Band Nexus&lt;/a&gt; is a data visualization that explores relationships between bands and artists.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Tree Image' src='/assets/bandtree/1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Each node represents a band or an artist. Two nodes are connected if for example an artist took part of the band at some point in time or collaborated in some way (for example by touring together, or did a cover song of the other band, etc).&lt;/p&gt;
+
+&lt;p&gt;The relations data are stored as static files, but were taken from the &lt;a href='http://musicbrainz.org'&gt;MusicBrainz&lt;/a&gt; database. The visualization was created with the &lt;a href='http://thejit.org'&gt;JavaScript InfoVis Toolkit&lt;/a&gt;.&lt;/p&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Twitter IPO</title>
+   
+    <link href="twitter-ipo"/>
+   
+   <updated>2013-01-11T00:00:00-08:00</updated>
+   
+   <id>twitter-ipo</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;&lt;img alt='Four more years picture' src='/assets/ipo/ipo1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;We released two visualizations accompanying Twitter&amp;#8217;s IPO roadshow presentations. These videos were used in the roadshow following the IPO and are an introduction to what Twitter is and its main features. One of the core values represented by these visualizations is &amp;#8220;Reach every person on the planet&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;The first visualization we built shows &amp;#8220;connectedness&amp;#8221;. How it all started in San Francisco and how our user base grew accross the globe.&lt;/p&gt;
+&lt;iframe webkitallowfullscreen='true' frameborder='0' src='//player.vimeo.com/video/79361495' width='500' mozallowfullscreen='true' allowfullscreen='true' height='241'&gt;
+&lt;/iframe&gt;
+&lt;p&gt;The visualization is part of the introduction to Twitter&amp;#8217;s IPO roadshow video:&lt;/p&gt;
+&lt;iframe frameborder='0' src='//www.youtube.com/embed/15u2G-L07x8?rel=0' width='500' allowfullscreen='true' height='281'&gt;
+&lt;/iframe&gt;
+&lt;p&gt;The longer IPO roadshow presentation features the CEO Dick Costolo explaining Twitter&amp;#8217;s core features. For this presentation we also created a visualization, this time showing the reach for the &amp;#8220;Four more years&amp;#8221; Tweet by Barack Obama.&lt;/p&gt;
+&lt;iframe webkitallowfullscreen='true' frameborder='0' src='//player.vimeo.com/video/79361496' width='500' mozallowfullscreen='true' allowfullscreen='true' height='281'&gt;
+&lt;/iframe&gt;
+&lt;p&gt;You can find the presentation about this visualization by Dick Costolo &lt;a href='http://www.youtube.com/watch?v=iz-8AraqAJo#t=8m02s'&gt;here&lt;/a&gt;.&lt;/p&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Political Engagement Map</title>
+   
+    <link href="political-engagement-map"/>
+   
+   <updated>2012-11-01T00:00:00-07:00</updated>
+   
+   <id>political-engagement-map</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;I worked on an &lt;a href='https://election.twitter.com/map'&gt;exploratory data visualization&lt;/a&gt; at Twitter that tracks engagement in the US for tweets from the candidates. &lt;a href='http://blog.twitter.com/2012/11/visualizing-2012-election.html'&gt;You can see the article on the Twitter blog here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Political Engagement Map' src='/assets/pem/1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are some interesting insights from the visualization summarized in the blog post too. For example, searching for tweets with the &amp;#8220;coal&amp;#8221; keyword shows more engagement on the states that are leading producers of coal:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Political Engagement Map - Coal' src='/assets/pem/2.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Other interesting searches ares ones for &lt;a href='https://election.twitter.com/map/#t240972218933329922&amp;amp;kpell%20grant'&gt;Pell Grant&lt;/a&gt; or &lt;a href='https://election.twitter.com/map/#t245509634897633281&amp;amp;kgod&amp;amp;m4'&gt;God&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also take a look at the topics that interest more a given state by clicking on it. For example, &lt;a href='https://election.twitter.com/map/#t258345565794992128&amp;amp;sNY&amp;amp;m4'&gt;here&amp;#8217;s what we get about New York&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Political Engagement Map - Topics NY' src='/assets/pem/3.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;This visualization has been featured in &lt;a href='http://bits.blogs.nytimes.com/2012/11/01/new-data-shows-which-candidates-tweets-resonated-most-with-electorate/'&gt;NYTimes&lt;/a&gt; and &lt;a href='http://www.wired.com/gadgetlab/2012/11/twitter-launches-election-map-to-track-candidates-state-by-state-messaging/'&gt;Wired&lt;/a&gt; among other places. You can find more insights &lt;a href='http://blog.twitter.com/2012/11/visualizing-2012-election.html'&gt;on the Twitter blog&lt;/a&gt;.&lt;/p&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Wallpaper Groups</title>
+   
+    <link href="wallpaper-groups"/>
+   
+   <updated>2012-09-20T00:00:00-07:00</updated>
+   
+   <id>wallpaper-groups</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;While exploring &lt;a href='http://en.wikipedia.org/wiki/Symmetry'&gt;symmetry&lt;/a&gt; I got interested in &lt;a href='http://en.wikipedia.org/wiki/Wallpaper_groups'&gt;Wallpaper Groups&lt;/a&gt; and how these were generated. There are 17 different plane groups:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Image' src='/assets/groups/2.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;I worked on a shader based implementation of them that could generate nice patterns like the one below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Image' src='/assets/groups/1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can access the app by &lt;a href='http://www.senchalabs.org/philogl/PhiloGL/examples/groups/'&gt;clicking on this link&lt;/a&gt;. Remember that you need to have a WebGL enabled browser.&lt;/p&gt;
+
+&lt;p&gt;I recommend you that before using the app you watch this quick tutorial on how to use the tool to create your own wallpapers here:&lt;/p&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/uNbKqv2kO-Y?rel=0' width='500' allowfullscreen='true' height='375'&gt;
+&lt;/iframe&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Neil Armstrong Video</title>
+   
+    <link href="neil-armstrong"/>
+   
+   <updated>2012-08-31T00:00:00-07:00</updated>
+   
+   <id>neil-armstrong</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;&lt;img alt='Tweets in planet' src='/assets/armstrong/1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;I created a data visualization that shows the reaction on Twitter after NASA announced that Neil Armstrong passed away on August 25th 2012.&lt;/p&gt;
+
+&lt;p&gt;There were more than 1.6 million tweets mentioning Neil Armstrong on a 48 hour period. Each tweet is represented by a yellow dot in this video:&lt;/p&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/lfND_hBL0aY?rel=0' width='500' allowfullscreen='true' height='281'&gt;
+&lt;/iframe&gt;
+&lt;p&gt;The video team worked on this idea to create a more polished video for the visualization that you can find in &lt;a href='http://blog.twitter.com/2012/08/remembering-first-man-on-moon_31.html'&gt;Twitter&amp;#8217;s blog&lt;/a&gt;.&lt;/p&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Line Integral Convolution</title>
+   
+    <link href="line-integral-convolution"/>
+   
+   <updated>2012-08-14T00:00:00-07:00</updated>
+   
+   <id>line-integral-convolution</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;I&amp;#8217;ve been doing research on &lt;a href='https://github.com/philogb/lic#readme'&gt;line integral convolution visualization techniques via texture advection&lt;/a&gt;. These are interesting techniques to visualize vector fields. The resulting visualizations are very similar to this physics experiment that uses iron &amp;#8220;sand&amp;#8221; to visualize a magnetic dipole vector field:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Magnetic dipole visualization' src='/assets/lic/magnet.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;These same techniques can be applied to visualize flows. &lt;a href='http://philogb.github.com/LIC/fluid.html'&gt;Here&amp;#8217;s an example&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Flow visualization' src='/assets/lic/flow.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#8217;d like to know more about this project you can access a related blog post &lt;a href='http://blog.thejit.org/2012/08/14/playing-with-line-integral-convolutions/'&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The papers implemented are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://www8.cs.umu.se/kurser/TDBD13/VT00/extra/p263-cabral.pdf'&gt;Imaging Vector Fields Using Line Integral Convolution&lt;/a&gt; by Brian Cabral Leith (Casey) Leedom&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://graphics.cs.ucdavis.edu/~lfeng/sig/tensor/papers/Animating%20Flow%20Fields%20Rendering%20of%20Oriented%20Line%20Integral%20Convolution.pdf'&gt;Animating Flowfields: Rendering of Oriented Line Integral Convolution&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://www.cs.ucdavis.edu/~ma/ECS276/readings/Jobard_TVCG02.pdf'&gt;Lagrangian-Eulerian Advection of Noise and Dye Textures for Unsteady Flow Visualization&lt;/a&gt; by Bruno Jobard, Gordon Erlebacher, and M. Yousuff Hussaini.&lt;/li&gt;
+&lt;/ul&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Euro 2012</title>
+   
+    <link href="eurocup-2012"/>
+   
+   <updated>2012-07-02T00:00:00-07:00</updated>
+   
+   <id>eurocup-2012</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;I worked on a data visualization for the 2012 European football championship at Twitter that you can find &lt;a href='https://euro2012.twitter.com/'&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Euro2012 Twitter visualization' src='/assets/euro2012/1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;The visualization shows day-by-day tweets aggregated by country in a streamgraph during the tournament. It also shows tweets per minute for each match of the tournament. Each time series is annotated with extra information for the match.&lt;/p&gt;
+
+&lt;p&gt;Interesting reactions happen on Twitter for some matches. For example, for the Greece vs. Germany match you can see how people in Greece cheer on their first goal, but aren&amp;#8217;t very cheerful on their second goal, after three consecutive goals from Germany.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Euro2012 Twitter visualization' src='/assets/euro2012/2.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are other interesting patterns and reactions visualized in the tournament, you can explore the visualization at &lt;a href='https://euro2012.twitter.com/'&gt;https://euro2012.twitter.com/&lt;/a&gt;.&lt;/p&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Wind Motion Patterns</title>
+   
+    <link href="wind-motion-patterns"/>
+   
+   <updated>2012-02-27T00:00:00-08:00</updated>
+   
+   <id>wind-motion-patterns</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;&lt;img alt='PhiloGL Wind Motion Patterns' src='/assets/winds/4.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.senchalabs.org/philogl/PhiloGL/examples/winds/'&gt;Wind Motion Patterns&lt;/a&gt; displays information about wind speed, direction and temperature across the US in a 72 hour period.&lt;/p&gt;
+
+&lt;p&gt;This visualization displays information on 1200 weather stations gathered from the &lt;a href='http://www.nws.noaa.gov/climate/'&gt;National Weather Service&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can switch between different visual markers from the top menu, also play the wind motion for the 72 hours or select a specific time from the timeline below the graphic.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Markers' src='/assets/winds/3.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href='http://senchalabs.github.com/philogl/PhiloGL/examples/winds/'&gt;Click here to access the example&lt;/a&gt;. You will need a WebGL capable browser (and machine).&lt;/strong&gt;&lt;/p&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/5HOuF6otV9E?rel=0' width='500' height='369'&gt;
+&lt;/iframe&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>World Flights</title>
+   
+    <link href="world-flights"/>
+   
+   <updated>2011-10-14T00:00:00-07:00</updated>
+   
+   <id>world-flights</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;&lt;img alt='World Flights image' src='/assets/worldflights/1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;World Flights is a data visualization that shows flying routes information for various airlines around the world. For 200 airlines, more than 57.000 flights and 6.000 destinations are displayed.&lt;/p&gt;
+
+&lt;p&gt;One important aspect of this visualization is the work put into trying to simplify the navigation and exploration of the data set.&lt;/p&gt;
+
+&lt;p&gt;You can select airlines to be displayed in the map by using the right menu. The top part of the menu displays the current selected airlines, clicking on them will rotate the earth to better display the cities served by the selected airline.&lt;/p&gt;
+
+&lt;p&gt;You can also zoom-in and hover the cities to see more information about them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href='http://senchalabs.github.com/philogl/PhiloGL/examples/worldFlights/'&gt;Click here to access the example&lt;/a&gt;. You will need a WebGL capable browser (and machine).&lt;/strong&gt;&lt;/p&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/YIxplozKJZM?rel=0&amp;amp;hd=1' width='480' height='360'&gt;
+&lt;/iframe&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>US Budget Visualization</title>
+   
+    <link href="us-budget"/>
+   
+   <updated>2011-03-27T00:00:00-07:00</updated>
+   
+   <id>us-budget</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;Launch the Visualization by &lt;a href='http://blog.thejit.org/assets/dataviz/index.html'&gt;clicking here&lt;/a&gt; (browsers supported are the latest of Google Chrome, Firefox, Opera and Safari -not IE).&lt;/p&gt;
+
+&lt;p&gt;Every year, Americans fill out income tax forms and make a payment to the IRS. Where does it all go? Using data provided by WhatWePayFor.com, &lt;a href='http://uxnerd.com/'&gt;Luz Caballero&lt;/a&gt; and I created a data visualization that will make it easier to understand how the government spends our tax money.&lt;/p&gt;
+
+&lt;h2 id='the_visualization'&gt;The Visualization&lt;/h2&gt;
+
+&lt;p&gt;This visualization is made of two components. First, a tree layout shows, for each given year, how the budget (blue) is divided on each function (green), subfunction (yellow), and &amp;#8220;account&amp;#8221; (the most granular subdivision accounted for in the budget, which gives an idea of the use to which the money is put) (red):&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Icicle Layout' src='/assets/dataviz/icicle.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;The height of each node/section in the tree is proportional to the amount of the budget spent on that function, subfunction or &amp;#8220;account&amp;#8221;. &lt;strong&gt;You can click on the nodes to navigate and filter functions and subfunctions&lt;/strong&gt;. To go back you can right-click or click in the back arrow on the left of the visualization.&lt;/p&gt;
+
+&lt;p&gt;The second component of the application is a timeline that puts the amounts you are visualizing in the tree in a temporal context, showing the evolution of that particular spending category through time. &lt;strong&gt;Click on the bars representing the different years to navigate through time&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Timeline' src='/assets/dataviz/timeline.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;We wanted to allow our users to compare today&amp;#8217;s spending to the 80s&amp;#8217; without artifacts caused by inflation, and changes in population and GDP. This is why our visualization shows inflation-adjusted USD, gives you the the option to see spending in USD, in USD per capita, or as a percentage of the time&amp;#8217;s GDP. Plus, we wanted to give our users a good shot at pinpointing if/when spending changes are a consequence of government policy or of the economic climate. This is why you can overlay indicators like debt, GDP, inflation and yr/yr population change, to give you an idea of how they affect and are influenced by spending trends.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Timeline' src='/assets/dataviz/timeline-debt.png' /&gt;&lt;/p&gt;
+
+&lt;h2 id='interaction'&gt;Interaction&lt;/h2&gt;
+
+&lt;p&gt;What makes this application most interesting is the interaction between the components, which are tightly coupled.&lt;/p&gt;
+
+&lt;p&gt;When a function is selected, the timeline will adapt to show the budget spending trend for that particular function over the years.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Interacting with the Icicle tree' src='/assets/dataviz/timeline2.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;When clicking on a timeline element, the tree will animate to show how the budget is spent on each function, subfunction and account, for the selected year.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in comparing how the budget changed between two different moments in time, there is an option to transition between years using colors, red and green, to highlight a decrease or increase of total budget spending for each item.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Interacting with the Icicle tree' src='/assets/dataviz/icicle2.png' /&gt;&lt;/p&gt;
+
+&lt;h2 id='demo_video'&gt;Demo Video&lt;/h2&gt;
+
+&lt;p&gt;We created a video that shows how to navigate and filter data and some interesting finds we made using our visualization. &lt;a href='http://www.youtube.com/watch?v=WUtwn7wB9Hs&amp;amp;hd=1'&gt;Click here&lt;/a&gt; to see the video in HD.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://blog.thejit.org/assets/dataviz/'&gt;Click here&lt;/a&gt; to access the visualization.&lt;/p&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/WUtwn7wB9Hs?rel=0' width='480' height='390'&gt;
+&lt;/iframe&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>World Temperature Anomalies</title>
+   
+    <link href="temperature-anomalies"/>
+   
+   <updated>2011-02-22T00:00:00-08:00</updated>
+   
+   <id>temperature-anomalies</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;&lt;img alt='World temperature anomalies image' src='/assets/tanomalies/1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;NASA collects year by year data about temperature changes around the globe. This information has been collected since 1880 and tracks temperature anomalies (changes) in different points of the earth as a 2D heatmap. By loading these images into textures and then mapping them into a 3D histogram we are able to track the temperature changes around the globe interactively. Smooth animations between date ranges enable us to spot the overall differences in temperature across the years. Can you guess what the temperature changes will be for the next decade?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href='http://senchalabs.github.com/philogl/PhiloGL/examples/temperatureAnomalies/'&gt;Click here to access the example&lt;/a&gt;. You will need a WebGL capable browser (and machine).&lt;/strong&gt;&lt;/p&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/NzDA2Rj3_uE?rel=0' width='480' height='390'&gt;
+&lt;/iframe&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>PhiloGL</title>
+   
+    <link href="philogl"/>
+   
+   <updated>2011-02-22T00:00:00-08:00</updated>
+   
+   <id>philogl</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;&lt;a href='http://senchalabs.github.com/philogl/'&gt;PhiloGL&lt;/a&gt; is a WebGL Framework for advanced data visualization, creative coding and game development.&lt;/p&gt;
+
+&lt;p&gt;PhiloGL uses cutting edge technology and JavaScript idioms and good practices to deliver elegantly coded WebGL applications that are focused on performance. PhiloGL also provides a rich module system covering Program and Shader management, IO, XHR, JSONP, Web Worker management, Effects and Tweening, and much more.&lt;/p&gt;
+
+&lt;p&gt;PhiloGL is Open Source Software, licensed under the MIT license and owned by the &lt;a href='http://senchalabs.org/'&gt;SenchaLabs&lt;/a&gt; foundation.&lt;/p&gt;
+
+&lt;p&gt;More information can be found in the &lt;a href='http://www.sencha.com/blog/introducing-philogl-a-webgl-javascript-library-from-sencha-labs/'&gt;Sencha article&lt;/a&gt; and the &lt;a href='http://arstechnica.com/open-source/news/2011/02/sencha-labs-releases-open-source-framework-for-webgl-development.ars'&gt;Ars Technica article&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can access the main page of the framework by &lt;a href='http://senchalabs.github.com/philogl/'&gt;clicking here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some images of projects made with the framework:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Wave simulation' src='http://www.senchalabs.org/philogl/img/marquee/wave.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Line integral convolution' src='http://www.senchalabs.org/philogl/img/marquee/lic.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Smoke simulation' src='http://www.senchalabs.org/philogl/img/marquee/smoke.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Fractal' src='http://www.senchalabs.org/philogl/img/marquee/fractal2.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Metaballs' src='http://senchalabs.github.com/philogl/img/marquee/metaballs.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Quaternion julia fractal' src='http://senchalabs.github.com/philogl/img/marquee/quaternion.png' /&gt;&lt;/p&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Parametric Surface Explorer</title>
+   
+    <link href="surface-explorer"/>
+   
+   <updated>2011-02-22T00:00:00-08:00</updated>
+   
+   <id>surface-explorer</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;&lt;img alt='3D Parametric Surfaces' src='/assets/explorer/1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Exploring 3D surfaces is a fun way to learn about geometry, physical phenomena or even terrain modeling. Parametric surfaces are surfaces that also change their shape with an extra variable: &lt;em&gt;time&lt;/em&gt;. Explore 3D surfaces by using drag and drop and the mouse wheel to zoom in/out. You can enable the &lt;em&gt;t&lt;/em&gt; parameter (by clicking on the checkbox) and hit play to see it move. There are three predefined surfaces for you to explore or modify.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href='http://senchalabs.github.com/philogl/PhiloGL/examples/explorer/'&gt;Click here&lt;/a&gt; to access the example. You will need a WebGL capable browser (and machine).&lt;/strong&gt;&lt;/p&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/J6IM1QS2l10?rel=0' width='480' height='390'&gt;
+&lt;/iframe&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Color Histogram Analysis</title>
+   
+    <link href="color-analysis"/>
+   
+   <updated>2011-02-22T00:00:00-08:00</updated>
+   
+   <id>color-analysis</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;&lt;img alt='3D color Histogram Analysis' src='/assets/histogram/1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Color decomposition on &lt;a href='http://en.wikipedia.org/wiki/RGB_color_model#Geometric_representation'&gt;RGB&lt;/a&gt; or &lt;a href='http://en.wikipedia.org/wiki/HSL_and_HSV'&gt;other color schemes&lt;/a&gt; takes a 3D form. In order to show the color decomposition of an image each dot on a 3D color histogram is assigned a different diameter. The following example renders fine grain and precise color decomposition schemes of each frame of a video in real time. Notice how color varies on each take, and feel free to change the color scheme or pause the video to have a closer look at the color decomposition. You can interact with the visualization by using drag and drop and zooming in/out with your mouse wheel.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href='http://senchalabs.github.com/philogl/PhiloGL/examples/histogram/'&gt;Click here&lt;/a&gt; to access the example. You will need a WebGL capable browser (and machine).&lt;/strong&gt;&lt;/p&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/ec-4GWoeYoU?rel=0' width='480' height='390'&gt;
+&lt;/iframe&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>Firefox 4 UI Study</title>
+   
+    <link href="firefox-ui-study"/>
+   
+   <updated>2010-12-10T00:00:00-08:00</updated>
+   
+   <id>firefox-ui-study</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;Launch the Visualization by &lt;a href='http://blog.thejit.org/assets/modvc/pilot/pilot.html'&gt;clicking here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://uxnerd.com/'&gt;Maria Luz Caballero&lt;/a&gt; and me have been working together for a couple of weeks to create an interesting visualization for the &lt;a href='http://design-challenge.mozillalabs.com/open-data/OpenDataCompetition/'&gt;Mozilla Open Data Visualization Challenge&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mozilla is releasing a new version of Firefox, version 4. This new version introduces a new UI and they have been monitoring how users interact with the different UI components of Firefox 4. They gathered some interesting information about how UI components are accessed and other elements taken by a survey to the Firefox users describe their expertise level, age, place where Firefox is used, etc.&lt;/p&gt;
+
+&lt;p&gt;We decided that this information could be visualized as a TreeMap in which the area of each node is proportional to the number of times a UI component has been accessed. For example in this image we can see that around 20% of UI interactions happen in the Navigation Toolbar, and it&amp;#8217;s possible to compare the area of this rectangle to others to give us a clue of the overall interactions:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Navigation Toolbar access tooltip image' src='/assets/modvc/tm1.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Each node also has a color that spans from red to blue, indicating an average of the expertise level of the user interacting with this component.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Color span gradient' src='/assets/modvc/tm2.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s interesting to note how some components are more often accessed by expert users than by beginners and viceversa. However since we provide an &lt;em&gt;average&lt;/em&gt; we lack the information about the &lt;em&gt;real distribution&lt;/em&gt; of user skills accessing the component. In order to avoid misleading results, when drilling down the TreeMap PieCharts indicate the real user skill distribution for each UI component interaction.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='PieCharts as nodes for skill distribution' src='/assets/modvc/tm3.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;What I believe is by far the most interesting aspect of this visualization is the fact of using the ordinal and nominal information provided by the user survey to provide dynamic filtering for the TreeMap. Dynamic filtering (or morphing) enables an easy comparison between different categories of users on how they interact with these components. The filter panel we provide is shown below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Dynamic Filtering Panel' src='/assets/modvc/tm4.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#8217;re interested in taking a look at the visualization and playing with it please go to our &lt;a href='http://blog.thejit.org/assets/modvc/pilot/pilot.html'&gt;entry&lt;/a&gt;. Browsers supported are Firefox 4, Opera 10.6+ and the latest of the Webkit family.&lt;/p&gt;
+    
+   </content>
+ </entry>
+ 
+ <entry>
+   <title>JavaScript InfoVis Toolkit</title>
+   
+    <link href="infovis"/>
+   
+   <updated>2008-01-12T00:00:00-08:00</updated>
+   
+   <id>infovis</id>
+   
+   <content type="html">
+    
+      &lt;p&gt;The &lt;a href='http://thejit.org/'&gt;JavaScript InfoVis Toolkit&lt;/a&gt; provides tools for creating Interactive Data Visualizations for the Web.&lt;/p&gt;
+
+&lt;p&gt;The toolkit implements advanced features of information visualization like &lt;a href='http://thejit.org/static/v20/Jit/Examples/Treemap/example1.html'&gt;TreeMaps&lt;/a&gt;, an adapted visualization of trees based on the &lt;a href='http://thejit.org/static/v20/Jit/Examples/Spacetree/example1.html'&gt;SpaceTree&lt;/a&gt;, a focus+context technique to plot &lt;a href='http://thejit.org/static/v20/Jit/Examples/Hypertree/example1.html'&gt;Hyperbolic Trees&lt;/a&gt;, a radial layout of trees with advanced animations -called &lt;a href='http://thejit.org/static/v20/Jit/Examples/RGraph/example1.html'&gt;RGraph&lt;/a&gt; and &lt;a href='http://thejit.org/demos/'&gt;other visualizations&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In November 2010 &lt;a href='http://blog.thejit.org/2010/11/06/sencha-acquires-the-javascript-infovis-toolkit/'&gt;the toolkit was acquired by the Sencha Labs Foundation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The JavaScript InfoVis Toolkit has been chosen as a mentoring organization and project for the Google Summer of Code 2011.&lt;/p&gt;
+&lt;iframe frameborder='0' src='http://player.vimeo.com/video/28185669' width='500' height='350'&gt;
+&lt;/iframe&gt;
+    
+   </content>
+ </entry>
+ 
+
+</feed>
+

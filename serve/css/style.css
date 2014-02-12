@@ -1,0 +1,159 @@
+@import url(http://fonts.googleapis.com/css?family=Ovo&v2);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+}
+
+body {
+  font-family: 'Ovo', serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+h1 {
+    margin: 25px 0;
+    font-size: 1.5em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a, a:visited {
+  color: #00a;
+}
+
+section {
+  margin: 50px;
+}
+
+article, header#intro {
+    width: 950px;
+    margin: 20px auto;
+}
+
+article {
+  text-align: left;
+  width: 500px;
+}
+
+article img {
+  box-shadow: 0 0 7px #000;
+  max-width: 500px;
+}
+
+article.white img {
+  box-shadow: none;
+}
+
+section > header {
+  text-align: left;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+  /*text-transform: uppercase;*/
+}
+
+section a figure {
+  text-align: left;
+  /*text-transform: uppercase;*/
+  color: #666;
+}
+
+section a figure .image {
+  width: 100%;
+  padding-bottom: 60%;
+  margin: 0;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  border: 1px solid #efefef;
+}
+
+section a:hover figure img {
+}
+
+section figcaption {
+  margin: 7px 0;
+  font-size: 0.9em;
+}
+
+section#visualizations a {
+  text-decoration: none;
+  color: #000 !important;
+}
+
+section#visualizations ul {
+  text-align: left;
+}
+
+section#visualizations > ul li {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  margin: 30px 2% 0 0;
+}
+
+section#visualizations > ul li:nth-child(n + 4) {
+  width: 22%;
+  margin: 30px 3% 0 0;
+}
+
+
+section#software, section#talks {
+  text-align: left;
+}
+
+section#software ul,
+section#talks ul {
+  margin: 20px;
+}
+
+section#software ul li,
+section#talks ul li {
+  margin-bottom: 10px;
+}
+
+section#talks time {
+}
+
+nav {
+  text-align: right;
+}
+
+header.address, footer {
+  margin: 10px 0;
+  font-size: 0.7em;
+}
+
+header.address ul li, footer ul li {
+  display: inline-block;
+  margin: 5px 5px;
+}
+
+header.address img, footer img {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 1300px) {
+  section#visualizations > ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin: 30px 2% 0 0;
+  }
+
+  section#visualizations > ul li:nth-child(n + 3) {
+    width: 32%;
+    margin: 30px 1% 0 0;
+  }
+
+}

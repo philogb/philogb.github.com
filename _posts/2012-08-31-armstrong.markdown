@@ -4,11 +4,11 @@ title: Neil Armstrong Video
 permalink: neil-armstrong
 category: Visualization
 tags: [WebGL, Video]
-thumb: assets/armstrong/1.png
+thumb: assets/armstrong/1.jpg
 
 ---
 
-![Tweets in planet](/assets/armstrong/1.png)
+![Tweets in planet](/assets/armstrong/1.jpg)
 
 I created a data visualization that shows the reaction on
 Twitter after NASA announced that Neil Armstrong passed away on August 25th 2012.
