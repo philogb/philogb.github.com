@@ -83,6 +83,11 @@ section a:hover figure img {
 section figcaption {
   margin: 7px 0;
   font-size: 0.9em;
+  position: relative;
+  padding-right: 40%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 section#visualizations a {
@@ -94,18 +99,36 @@ section#visualizations ul {
   text-align: left;
 }
 
-section#visualizations > ul li {
+section#visualizations > ul > li {
   display: inline-block;
   vertical-align: top;
   width: 31%;
   margin: 30px 2% 0 0;
 }
 
-section#visualizations > ul li:nth-child(n + 4) {
+section#visualizations > ul > li:nth-child(n + 4) {
   width: 22%;
   margin: 30px 3% 0 0;
 }
 
+ul.tags {
+  /* display: inline; */
+  /* text-align: right; */
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+ul.tags > li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 1px;
+  padding: 0.05em 0.5em;
+  font-size: 0.8em;
+  background: #8899a6;
+  color: white;
+  border-radius: 0.2em;
+}
 
 section#software, section#talks {
   text-align: left;
@@ -144,16 +167,51 @@ header.address img, footer img {
 }
 
 @media screen and (max-width: 1300px) {
-  section#visualizations > ul li {
+  section#visualizations > ul > li {
     display: inline-block;
     vertical-align: top;
     width: 48%;
     margin: 30px 2% 0 0;
   }
 
-  section#visualizations > ul li:nth-child(n + 3) {
+  section#visualizations > ul > li:nth-child(n + 3) {
     width: 32%;
     margin: 30px 1% 0 0;
   }
 
+  section figcaption {
+    padding-right: 0;
+  }
+
+  ul.tags {
+    position: static;
+  }
+
 }
+
+ul.tags > li.Twitter,
+ul.tags > li.Google,
+ul.tags > li.Mozilla
+{
+  background: #55acee;
+}
+
+ul.tags > li.Gov,
+ul.tags > li.Sports,
+ul.tags > li.News,
+ul.tags > li.TV,
+ul.tags > li.Music
+{
+  background: #77b255;
+}
+
+ul.tags > li.PhiloGL,
+ul.tags > li.InfoVis {
+  background: #ffcc4d;
+}
+
+ul.tags > li.SciViz {
+  background: #9266cc;
+}
+
+

@@ -3,7 +3,7 @@ layout: post
 title: Wind Motion Patterns
 permalink: wind-motion-patterns
 category: Visualization
-tags: [WebGL, PhiloGL]
+tags: [SciViz, PhiloGL]
 thumb: assets/winds/4.png
 
 ---

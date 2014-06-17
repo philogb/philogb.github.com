@@ -3,7 +3,7 @@ layout: post
 title: US Budget Visualization
 permalink: us-budget
 category: Visualization
-tags: [Canvas, Google DataViz Challenge, JavaScript InfoVis Toolkit]
+tags: [Google, InfoVis, Gov]
 collaborations: [Luz Caballero]
 thumb: assets/dataviz/1.jpg
 theme: white

@@ -3,7 +3,7 @@ layout: post
 title: Andes
 permalink: andes
 category: Visualization
-tags: [JavaScript]
+tags: [Twitter, PhiloGL]
 thumb: assets/andes/1.jpg
 
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Neil Armstrong Video
 permalink: neil-armstrong
 category: Visualization
-tags: [WebGL, Video]
+tags: [Twitter, PhiloGL]
 thumb: assets/armstrong/1.jpg
 
 ---

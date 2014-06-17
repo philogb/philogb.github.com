@@ -3,7 +3,7 @@ layout: post
 title: Color Histogram Analysis
 permalink: color-analysis
 category: Visualization
-tags: [WebGL, PhiloGL]
+tags: [SciViz, PhiloGL]
 collaborations: [Luz Caballero]
 thumb: assets/histogram/1.jpg
 

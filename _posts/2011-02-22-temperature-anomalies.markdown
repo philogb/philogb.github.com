@@ -3,7 +3,7 @@ layout: post
 title: World Temperature Anomalies
 permalink: temperature-anomalies
 category: Visualization
-tags: [WebGL, PhiloGL, NASA]
+tags: [SciViz, PhiloGL]
 thumb: assets/tanomalies/1.jpg
 
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Parametric Surface Explorer
 permalink: surface-explorer
 category: Visualization
-tags: [WebGL, PhiloGL]
+tags: [SciViz, PhiloGL]
 thumb: assets/explorer/1.jpg
 
 ---

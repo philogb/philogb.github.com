@@ -3,7 +3,7 @@ layout: post
 title: Band Nexus
 permalink: band-nexus-project
 category: Visualization
-tags: [JavaScript]
+tags: [Music, InfoVis]
 thumb: assets/bandtree/1.jpg
 
 ---

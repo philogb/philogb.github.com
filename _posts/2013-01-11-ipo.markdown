@@ -3,7 +3,7 @@ layout: post
 title: Twitter IPO
 permalink: twitter-ipo
 category: Visualization
-tags: [JavaScript, WebGL, Twitter]
+tags: [Twitter, PhiloGL]
 thumb: assets/ipo/1.jpg
 
 ---

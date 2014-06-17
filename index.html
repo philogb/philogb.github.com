@@ -13,8 +13,7 @@ title: Nicolas Garcia Belmonte
     <h2>Data Visualizations</h2>
   </header>
   <ul>
-    {% for post in site.posts %}{% if post.category == 'Visualization' %}<li><a href="{% if post.fullurl %}{{post.fullurl}}{% else %}{{ post.url }}{% endif %}"><figure><div class="image" style="background-image: url({{ post.thumb }}); {% if post.position %}background-position: {{post.position}} {% endif %}"></div><figcaption>{{ post.title }}</figcaption></figure></a></li>{% endif %}{% endfor %}
-  </ul>
+    {% for post in site.posts %}{% if post.category == 'Visualization'%}<li><a href="{% if post.fullurl %}{{post.fullurl}}{% else %}{{post.url }}{% endif %}"><figure><div class="image" style="background-image: url({{ post.thumb }}); {% if post.position %}background-position: {{post.position}} {% endif %}"></div><figcaption>{{ post.title }} <ul class="tags">{% for tag in post.tags %}<li class="{{tag}}">{{tag}}</li>{% endfor %}</ul></figcaption></figure></a></li>{% endif %}{% endfor %}</ul>
 </section>
 
 <section id="software">

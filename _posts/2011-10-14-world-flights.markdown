@@ -3,7 +3,7 @@ layout: post
 title: World Flights
 permalink: world-flights
 category: Visualization
-tags: [WebGL, PhiloGL]
+tags: [SciViz, PhiloGL]
 thumb: assets/worldflights/1.jpg
 
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Political Engagement Map
 permalink: political-engagement-map
 category: Visualization
-tags: [SVG, JavaScript]
+tags: [Twitter, Gov]
 thumb: assets/pem/1.jpg
 theme: white
 

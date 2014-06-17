@@ -3,7 +3,7 @@ layout: post
 title: Mobility flow in France
 permalink: mobility-flow-france
 category: Visualization
-tags: [JavaScript, WebGL]
+tags: [Gov, PhiloGL]
 theme: white
 thumb: assets/france/county.jpg
 

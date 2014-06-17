@@ -4,7 +4,7 @@ title: Laika
 permalink: laika
 theme: white
 category: Visualization
-tags: [JavaScript, WebGL]
+tags: [Twitter, PhiloGL]
 thumb: assets/laika/1.jpg
 position: center center
 

@@ -3,7 +3,7 @@ layout: post
 title: Line Integral Convolution
 permalink: line-integral-convolution
 category: Visualization
-tags: [WebGL, PhiloGL]
+tags: [SciViz, PhiloGL]
 thumb: assets/lic/1.jpg
 
 ---

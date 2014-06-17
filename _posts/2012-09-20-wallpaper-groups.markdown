@@ -3,7 +3,7 @@ layout: post
 title: Wallpaper Groups
 permalink: wallpaper-groups
 category: Visualization
-tags: [JavaScript, WebGL]
+tags: [SciViz, PhiloGL]
 thumb: assets/groups/1.jpg
 
 ---

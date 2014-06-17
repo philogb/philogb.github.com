@@ -3,7 +3,7 @@ layout: post
 title: Philippines
 permalink: help-the-philippines
 category: Visualization
-tags: [JavaScript, WebGL, Twitter]
+tags: [Twitter, News]
 thumb: assets/philippines/2.jpg
 theme: white
 

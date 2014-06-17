@@ -3,7 +3,7 @@ layout: post
 title: Firefox 4 UI Study
 permalink: firefox-ui-study
 category: Visualization
-tags: [Canvas, JavaScript InfoVis Toolkit]
+tags: [Mozilla, InfoVis]
 thumb: assets/modvc/1.jpg
 
 ---
