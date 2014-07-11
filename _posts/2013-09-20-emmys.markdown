@@ -4,7 +4,7 @@ title: Interactives
 permalink: interactives
 theme: white
 category: Visualization
-tags: [Twitter, TV, InfoVis]
+tags: [Twitter, TV]
 thumb: assets/emmys/1.jpg
 fullurl: https://blog.twitter.com/2013/visualizing-tweets-around-emmy-nominated-shows
 
