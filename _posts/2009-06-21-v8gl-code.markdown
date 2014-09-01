@@ -1,0 +1,12 @@
+---
+layout: post
+title: "V8-GL: Desktop hardware accelerated graphics with JavaScript"
+description: Before WebGL existed I added bindings to V8 to expose the OpenGL API in Chrome.
+category: Software
+tags: [Canvas, HTML5]
+fullurl: https://github.com/philogb/V8-GL#readme
+
+---
+
+
+

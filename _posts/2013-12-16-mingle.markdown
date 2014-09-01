@@ -1,0 +1,10 @@
+---
+layout: post
+title: Multilvel Agglomerative Edge Bundling
+description: JavaScript implementation of the MINGLE edge bundling algorithm (with extensions)
+category: Software
+tags: [Canvas, HTML5]
+fullurl: https://github.com/philogb/mingle#readme
+
+---
+

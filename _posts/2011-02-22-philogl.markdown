@@ -5,7 +5,6 @@ description: A WebGL Framework for advanced data visualization, creative coding 
 permalink: philogl
 category: Software
 tags: [WebGL]
-thumb: assets/img/philogl.png
 
 ---
 

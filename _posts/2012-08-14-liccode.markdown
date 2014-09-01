@@ -1,0 +1,11 @@
+---
+layout: post
+title: Line Integral Convolution
+description: JavaScript WebGL implementation of Line Integral Convolution techniques to visualize vector fields
+category: Software
+tags: [Canvas, HTML5]
+fullurl: https://github.com/philogb/LIC#readme
+
+---
+
+

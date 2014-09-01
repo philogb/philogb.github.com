@@ -24,8 +24,8 @@ title: Nicolas Garcia Belmonte
     {% for post in site.posts reversed %}
       {% if post.category == 'Software' %}
       <li>
-        <img alt="{{ post.title }}" src="{{ post.thumb }}" />
-        <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.description }}
+      {% if post.thumb %}<img alt="{{ post.title }}" src="{{ post.thumb }}" />{% endif %}
+      <a href="{% if post.fullurl %}{{ post.fullurl }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a> - {{ post.description }}
       </li>
       {% endif %}
       {% endfor %}
@@ -37,6 +37,7 @@ title: Nicolas Garcia Belmonte
     <h2>Talks, Interviews &amp; Articles</h2>
   </header>
   <ul>
+    <li><time>Aug 2014</time> <a href="http://www.slideshare.net/philogb/hacking-publicfacing-data-visualizations-at-twitter">Hacking public-facing data visualizations at Twitter</a> - <a href="https://www.graphicalweb.org/2014/">The Graphical Web</a> in Winchester, UK</li>
 <li><time>Aug 2014</time> <a href="/assets/articles/epoca.png">Interview</a> by the Brazilian magazine "Epoca"</li>
 <li><time>Jul 2014</time> <a href="/assets/articles/elcomercio.pdf">Interview</a> by the Peruvian newspaper "El Comercio"</li>
 <li><time>Mar 2014</time> <a
