@@ -1,0 +1,11 @@
+Nicolas Garcia Belmonte works as a Staff Data Scientist and is the
+Technical Lead for Data Visualization at Twitter. Nicolas leads Twitter
+interactive, a platform that delivers public-facing data visualizations
+around verticals like News, Government, Sports and TV in collaboration
+with the Comms and Media teams. Prior to joining Twitter, Nicolas
+created open source frameworks for advanced data visualization that were
+used by organizations like Mozilla, Google, the White House and Twitter.
+As a speaker, Nicolas participated in international conferences doing
+presentations in english, french and spanish. His work has been cited
+in multiple books including Data Points by Nathan Yau. Today his interests
+range from advanced techniques in graphics to investigative journalism.
