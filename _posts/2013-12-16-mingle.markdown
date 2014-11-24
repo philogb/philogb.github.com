@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Multilvel Agglomerative Edge Bundling
+title: Multilevel Agglomerative Edge Bundling
 description: JavaScript implementation of the MINGLE edge bundling algorithm (with extensions)
 category: Software
 tags: [Canvas, HTML5]
