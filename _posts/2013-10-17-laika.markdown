@@ -63,6 +63,5 @@ This was shown at CES 2014 as an official visualization for Twitter and will
 be used in other events like SXSW and more. Here's a video showcasing
 the interactive features:
 
-<iframe width="500" height="281" src="//www.youtube.com/embed/Bnr2MF7FK-A?rel=0" frameborder="0" allowfullscreen="true">
+<iframe width="750" height="422" src="//www.youtube.com/embed/Bnr2MF7FK-A?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
 </iframe>
-

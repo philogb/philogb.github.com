@@ -79,6 +79,6 @@ using our visualization. [Click here](http://www.youtube.com/watch?v=WUtwn7wB9Hs
 [Click here](http://blog.thejit.org/assets/dataviz/) to access the visualization.
 
 
-<iframe width="480" height="390" src="http://www.youtube.com/embed/WUtwn7wB9Hs?rel=0" frameborder="0">
+<iframe width="750" height="563" src="//www.youtube.com/embed/WUtwn7wB9Hs?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
 </iframe>
 

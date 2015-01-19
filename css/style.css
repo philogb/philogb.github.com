@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Ovo&v2);
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);*/
+/*@import url(http://fonts.googleapis.com/css?family=Titillium+Web:200,300)*/
 
 * {
   margin: 0;
@@ -9,6 +11,8 @@ html, body {
 }
 
 body {
+  /*font-family: 'Open Sans', sans-serif;*/
+  /*font-family: 'Titillium Web',sans-serif;*/
   font-family: 'Ovo', serif;
   font-size: 1em;
   text-align: center;
@@ -19,12 +23,18 @@ h1, h2 {
 }
 
 h1 {
-    margin: 25px 0;
+    width: 500px;
+    margin: 25px auto;
     font-size: 1.5em;
 }
 
+header#intro > h1 {
+  width: 100%;
+}
+
 p {
-  margin: 1em 0;
+  width: 500px;
+  margin: 1em auto;
 }
 
 a, a:visited {
@@ -46,8 +56,10 @@ article {
 }
 
 article img {
-  box-shadow: 0 0 7px #000;
-  max-width: 500px;
+  /*box-shadow: 0 0 7px #000;*/
+  /*max-width: 500px;*/
+  width: 150%;
+  margin-left: -25%;
 }
 
 article.white img {
@@ -148,6 +160,8 @@ section#talks time {
 }
 
 nav {
+  width: 500px;
+  margin: auto;
   text-align: right;
 }
 
@@ -214,4 +228,6 @@ ul.tags > li.SciViz {
   background: #9266cc;
 }
 
-
+iframe {
+  margin-left: -125px;
+}

@@ -9,7 +9,7 @@ thumb: assets/histogram/1.jpg
 
 ---
 
-![3D color Histogram Analysis](/assets/histogram/1.jpg)
+![3D color Histogram Analysis](/assets/histogram/1.png)
 
 Color decomposition on [RGB](http://en.wikipedia.org/wiki/RGB_color_model#Geometric_representation)
 or [other color schemes](http://en.wikipedia.org/wiki/HSL_and_HSV) takes a
@@ -23,6 +23,6 @@ by using drag and drop and zooming in/out with your mouse wheel.
 **[Click here](http://senchalabs.github.com/philogl/PhiloGL/examples/histogram/) to access the example. You will need a WebGL capable
 browser (and machine).**
 
-<iframe width="480" height="390" src="http://www.youtube.com/embed/ec-4GWoeYoU?rel=0" frameborder="0">
+<iframe width="750" height="563" src="//www.youtube.com/embed/ec-4GWoeYoU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
 </iframe>
 

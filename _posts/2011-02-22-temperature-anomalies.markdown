@@ -1,14 +1,14 @@
 ---
 layout: post
 title: World Temperature Anomalies
-permalink: temperature-anomalies
+permalink: temperature-anomalies-pre
 category: Visualization
 tags: [SciViz, PhiloGL]
 thumb: assets/tanomalies/1.jpg
 
 ---
 
-![World temperature anomalies image](/assets/tanomalies/1.jpg)
+![World temperature anomalies image](/assets/tanomalies/1.png)
 
 
 NASA collects year by year data about temperature changes around the globe.
@@ -22,6 +22,6 @@ Can you guess what the temperature changes will be for the next decade?
 browser (and machine).**
 
 
-<iframe width="480" height="390" src="http://www.youtube.com/embed/NzDA2Rj3_uE?rel=0" frameborder="0">
+<iframe width="750" height="563" src="//www.youtube.com/embed/NzDA2Rj3_uE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
 </iframe>
 

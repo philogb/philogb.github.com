@@ -22,6 +22,6 @@ need to have a WebGL enabled browser.
 
 I recommend you that before using the app you watch this quick tutorial on how to use the tool to create your own wallpapers here:
 
-<iframe width="500" height="375" src="http://www.youtube.com/embed/uNbKqv2kO-Y?rel=0" frameborder="0" allowfullscreen="true">
+<iframe width="750" height="563" src="//www.youtube.com/embed/uNbKqv2kO-Y?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
 </iframe>
 

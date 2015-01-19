@@ -11,7 +11,7 @@ theme: white
 
 I worked on a data visualization for the 2012 European football championship at Twitter that you can find [here](https://euro2012.twitter.com/).
 
-![Euro2012 Twitter visualization](/assets/euro2012/1.jpg)
+![Euro2012 Twitter visualization](/assets/euro2012/1.png)
 
 The visualization shows day-by-day tweets aggregated by country in a streamgraph during the tournament. It also shows tweets per minute for each match of the tournament. Each time series is annotated with extra information for the match.
 

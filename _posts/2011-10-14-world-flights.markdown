@@ -8,7 +8,7 @@ thumb: assets/worldflights/1.jpg
 
 ---
 
-![World Flights image](/assets/worldflights/1.jpg)
+![World Flights image](/assets/worldflights/1.png)
 
 
 World Flights is a data visualization that shows flying routes
@@ -31,6 +31,6 @@ them.
 browser (and machine).**
 
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/YIxplozKJZM?rel=0&amp;hd=1" frameborder="0">
+<iframe width="750" height="563" src="//www.youtube.com/embed/YIxplozKJZM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
 </iframe>
 

@@ -8,7 +8,7 @@ thumb: assets/explorer/1.jpg
 
 ---
 
-![3D Parametric Surfaces](/assets/explorer/1.jpg)
+![3D Parametric Surfaces](/assets/explorer/1.png)
 
 Exploring 3D surfaces is a fun way to learn about geometry,
 physical phenomena or even terrain modeling. Parametric surfaces
@@ -20,6 +20,6 @@ checkbox) and hit play to see it move. There are three predefined surfaces for y
 **[Click here](http://senchalabs.github.com/philogl/PhiloGL/examples/explorer/) to access the example. You will need a WebGL capable
 browser (and machine).**
 
-<iframe width="480" height="390" src="http://www.youtube.com/embed/J6IM1QS2l10?rel=0" frameborder="0">
+<iframe width="750" height="563" src="//www.youtube.com/embed/J6IM1QS2l10?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
 </iframe>
 

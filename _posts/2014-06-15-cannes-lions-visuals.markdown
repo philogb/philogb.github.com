@@ -16,7 +16,7 @@ The first visualization shows
 [@IanMcKellen](https://twitter.com/ianmckellen) mentions over time. The
 yellow marks show interactions between the two accounts:
 
-<iframe width="560" height="420" src="//www.youtube.com/embed/CPX1DeDi0Us?rel=0" frameborder="0" allowfullscreen="true">
+<iframe width="750" height="563" src="//www.youtube.com/embed/CPX1DeDi0Us?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
 </iframe>
 
 You can find the presentation introducing the video [here](https://www.youtube.com/watch?v=n2EPHfUf33g#t=20m).
@@ -24,7 +24,7 @@ You can find the presentation introducing the video [here](https://www.youtube.c
 The second visualization we worked on shows the geolocation of followers
 of [@AmexOffers](https://twitter.com/amexoffers) through time:
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/ofG4WtAOrdE?rel=0" frameborder="0" allowfullscreen="true">
+<iframe width="750" height="422" src="//www.youtube.com/embed/ofG4WtAOrdE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
 </iframe>
 
 You can find the presentation introducing the video [here](https://www.youtube.com/watch?v=n2EPHfUf33g#t=16m50s).

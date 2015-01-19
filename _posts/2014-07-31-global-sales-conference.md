@@ -22,12 +22,12 @@ and a promoted one:
 showing approximately 12x increase in impressions for promoted Tweets.
 Here's a video of the animation:
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/LsWTsZCCzUs?rel=0" frameborder="0" allowfullscreen="true">
+<iframe width="750" height="422" src="//www.youtube.com/embed/LsWTsZCCzUs?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
 </iframe>
 
 The second visualization shows how different moments are lived across
 the world in our platform: interest, brand, campaign, prospect and
 customer moments:
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/4Dy4uUZ08_Q?rel=0" frameborder="0" allowfullscreen="true">
+<iframe width="750" height="422" src="//www.youtube.com/embed/4Dy4uUZ08_Q?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
 </iframe>
