@@ -24,6 +24,9 @@ about 100,000 primitives on each stage. Here's a video of how it looks:
 <iframe width="750" height="563" src="//www.youtube.com/embed/Nj_ncLwsJmI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
 </iframe>
 
+You can try a live WebGL demo here: [Live Demo](http://philogb.github.io/page/fractile/). Works with Chrome and
+Firefox 35+. The project has been open sourced [here](https://github.com/philogb/page/tree/gh-pages/fractile#readme).
+
 The application works on displays that are set to be portrait. Here are
 a few pictures of how the portrait layout looks like:
 
