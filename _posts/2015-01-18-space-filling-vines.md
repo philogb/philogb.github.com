@@ -53,5 +53,3 @@ Vines by:
  * [folium](https://vine.co/v/OvYEqFxndzu)
  * [Noah Kalina](https://vine.co/v/OnZb6vZ7662)
 
-I'm working on open-sourcing the project so that other people can use it
-with their own content.
