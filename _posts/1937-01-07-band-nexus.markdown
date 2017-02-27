@@ -5,6 +5,7 @@ permalink: band-nexus-project
 category: Visualization
 tags: [Music, InfoVis]
 thumb: assets/bandtree/1.jpg
+fullurl: http://philogb.github.io/band-nexus/
 
 ---
 

@@ -6,6 +6,7 @@ tags: [Twitter, PhiloGL]
 thumb: assets/random/1.jpg
 permalink: space-filling-vines
 position: center center
+fullurl: http://philogb.github.io/page/fractile/
 
 ---
 

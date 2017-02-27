@@ -21,7 +21,7 @@ title: Nicolas Garcia Belmonte
     <h2>Software</h2>
   </header>
   <ul>
-    {% for post in site.posts reversed %}
+    {% for post in site.posts %}
       {% if post.category == 'Software' %}
       <li>
       {% if post.thumb %}<img alt="{{ post.title }}" src="{{ post.thumb }}" />{% endif %}
@@ -37,6 +37,7 @@ title: Nicolas Garcia Belmonte
     <h2>Talks, Interviews &amp; Articles</h2>
   </header>
   <ul>
+    <li><time>Nov 2016</time> <a href="https://eng.uber.com/deck-gl-framework/">Deck.gl</a> in <a href="https://eng.uber.com">Uber Engineering Blog.</a></li>
     <li><time>May 2016</time> <a href="https://eng.uber.com/data-viz-intel/">Engineering intelligence through data visualization at Uber</a> in <a href="https://eng.uber.com">Uber Engineering Blog.</a></li>
     <li><time>Aug 2015</time> <a href="https://eng.uber.com/pulse-of-a-city/">The Pulse of a City: How People Move Using Engineering at Uber</a> in <a href="http://eng.uber.com/">Uber Engineering Blog.</a></li>
     <li><time>Aug 2015</time> Author of chapter "Data Visualization Techniques with WebGL" in <a href="http://www.amazon.com/WebGL-Insights-Patrick-Cozzi/dp/1498716075/">WebGL Insights</a></li>

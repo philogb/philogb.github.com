@@ -5,6 +5,7 @@ permalink: line-integral-convolution
 category: Visualization
 tags: [SciViz, PhiloGL]
 thumb: assets/lic/1.jpg
+fullurl: http://philogb.github.io/LIC/fluid.html
 
 ---
 

@@ -1,0 +1,10 @@
+---
+layout: post
+title: deck.gl
+description: WebGL Visualization Layers by Uber's Visualization Team
+permalink: philogl-lib
+fullurl: http://uber.github.io/deck.gl/#/
+category: Software
+tags: [WebGL]
+
+---

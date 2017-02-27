@@ -10,7 +10,8 @@ position: center center
 
 ---
 
-![Laika picture](/assets/laika/globe1.png)
+<iframe width="750" height="422" src="//www.youtube.com/embed/Bnr2MF7FK-A?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
+</iframe>
 
 Laika is a data visualization showing geolocated activity on Twitter
 around the world. The first iteration of the project was done during
@@ -60,8 +61,4 @@ of the features added are dragging the globe, tapping on cities,
 pinching to zoom in/out, etc.
 
 This was shown at CES 2014 as an official visualization for Twitter and will
-be used in other events like SXSW and more. Here's a video showcasing
-the interactive features:
-
-<iframe width="750" height="422" src="//www.youtube.com/embed/Bnr2MF7FK-A?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
-</iframe>
+be used in other events like SXSW and more.

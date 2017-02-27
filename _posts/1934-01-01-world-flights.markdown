@@ -5,6 +5,7 @@ permalink: world-flights
 category: Visualization
 tags: [SciViz, PhiloGL]
 thumb: assets/worldflights/1.jpg
+fullurl: http://www.senchalabs.org/philogl/PhiloGL/examples/worldFlights/
 
 ---
 

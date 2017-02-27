@@ -6,6 +6,7 @@ category: Visualization
 tags: [Twitter, News]
 thumb: assets/philippines/2.jpg
 theme: white
+fullurl: http://twitter.github.io/interactive/philippines/
 
 ---
 

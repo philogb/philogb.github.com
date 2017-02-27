@@ -1,6 +1,6 @@
 ---
 layout: post
-title: State of the Union Address 2014
+title: State of the Union Address
 permalink: sotu-2014
 category: Visualization
 tags: [Twitter, Gov]
