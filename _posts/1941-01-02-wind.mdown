@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Wind Patterns"
+category: Visualization
+tags: [Deck.gl]
+thumb: assets/wind/1.jpg
+permalink: hopf
+fullurl: http://philogb.github.io/page/wind/
+position: center center
+
+---
+
+
