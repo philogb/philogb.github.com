@@ -5,7 +5,7 @@ category: Visualization
 tags: [Deck.gl]
 thumb: assets/wind/1.jpg
 permalink: hopf
-fullurl: http://philogb.github.io/page/wind/
+fullurl: http://uber.github.io/deck.gl/blog/2017/wind-map
 position: center center
 
 ---
