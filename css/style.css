@@ -32,6 +32,39 @@ header#intro > h1 {
   width: 100%;
 }
 
+header#intro {
+  margin: 50px;
+}
+
+header#intro figure, header#intro p {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+header#intro figure {
+  width: 25%;
+}
+
+header#intro p {
+  width: 74%;
+}
+
+header#intro figure .image {
+    width: 90%;
+    padding-bottom: 70%;
+    margin: 5px 0 0 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+header#intro p {
+  font-size: 1.2em;
+}
+
 p {
   text-align: left;
   margin: 1em auto 0.1em auto;
@@ -45,7 +78,8 @@ section {
   margin: 50px;
 }
 
-article, header#intro {
+article {
+  /*, header#intro {*/
     width: 950px;
     margin: 20px auto;
 }
@@ -100,6 +134,33 @@ section figcaption {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+section#latest figcaption {
+  padding-right: 0;
+}
+
+section#latest a {
+  text-decoration: none;
+  color: #000 !important;
+}
+
+section#latest ul {
+  text-align: left;
+}
+
+section#latest > ul > li {
+  display: inline-block;
+  vertical-align: top;
+  /*width: 31%;*/
+  /*margin: 30px 2% 0 0;*/
+  width: 22%;
+  margin: 30px 3% 0 0;
+}
+
+section#latest > ul > li:nth-child(n + 4) {
+  width: 22%;
+  margin: 30px 3% 0 0;
 }
 
 section#visualizations a {
