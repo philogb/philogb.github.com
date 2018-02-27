@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Myriahedral Projections"
+category: Visualization
+tags: [Deck.gl]
+thumb: assets/myriad/1.jpg
+permalink: myriad
+fullurl: http://philogb.github.io/page/myriahedral/
+position: center center
+
+---
+
+
+
