@@ -5,7 +5,7 @@ category: Visualization
 tags: [Deck.gl]
 thumb: assets/myriad/1.jpg
 permalink: myriad
-fullurl: http://philogb.github.io/page/myriahedral/
+fullurl: https://medium.com/@vis.gl/unfolding-the-earth-myriahedral-projections-in-webgl-6b2bcfd00a30
 position: center center
 
 ---
