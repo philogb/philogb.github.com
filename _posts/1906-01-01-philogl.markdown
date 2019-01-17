@@ -2,7 +2,7 @@
 layout: post
 title: PhiloGL
 description: A WebGL Framework for advanced data visualization, creative coding and game development.
-permalink: http://philogb.github.io/philogl/
+permalink: /philogl/
 category: Software
 tags: [WebGL]
 
