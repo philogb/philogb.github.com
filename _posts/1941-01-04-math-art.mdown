@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Math-inspired Art"
+category: Visualization
+tags: [luma.gl]
+thumb: assets/mathart/1.jpg
+permalink: myriad
+fullurl: https://medium.com/@philogb/math-inspired-art-e4c1a88f69e6
+position: center center
+
+---
+
+
+
