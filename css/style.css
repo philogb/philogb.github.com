@@ -36,19 +36,19 @@ header#intro {
   margin: 50px;
 }
 
-header#intro figure, header#intro p {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
-}
+/*header#intro figure, header#intro p {*/
+  /*display: inline-block;*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*vertical-align: middle;*/
+/*}*/
 
 header#intro figure {
   width: 25%;
 }
 
 header#intro p {
-  width: 74%;
+  /*width: 74%;*/
 }
 
 header#intro figure .image {
