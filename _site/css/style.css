@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Ovo&v2);
+/*@import url(http://fonts.googleapis.com/css?family=Ovo&v2);*/
+/*@import url(http://fonts.googleapis.com/css?family=Ovo&v2);*/
 /*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);*/
 /*@import url(http://fonts.googleapis.com/css?family=Titillium+Web:200,300)*/
 
@@ -13,7 +14,8 @@ html, body {
 body {
   /*font-family: 'Open Sans', sans-serif;*/
   /*font-family: 'Titillium Web',sans-serif;*/
-  font-family: 'Ovo', serif;
+  /*font-family: 'Ovo', serif;*/
+  font-family: "source-code-pro", monospace;
   font-size: 1em;
   text-align: center;
 }
@@ -36,19 +38,19 @@ header#intro {
   margin: 50px;
 }
 
-/*header#intro figure, header#intro p {*/
-  /*display: inline-block;*/
-  /*margin: 0;*/
-  /*padding: 0;*/
-  /*vertical-align: middle;*/
-/*}*/
+header#intro figure, header#intro p {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
 
 header#intro figure {
   width: 25%;
 }
 
 header#intro p {
-  /*width: 74%;*/
+  width: 74%;
 }
 
 header#intro figure .image {
@@ -154,14 +156,16 @@ section#latest > ul > li {
   vertical-align: top;
   /*width: 31%;*/
   /*margin: 30px 2% 0 0;*/
-  width: 22%;
+  /*width: 22%;*/
+  width: 30%;
   margin: 30px 3% 0 0;
 }
 
-section#latest > ul > li:nth-child(n + 4) {
-  width: 22%;
-  margin: 30px 3% 0 0;
-}
+/*section#latest > ul > li:nth-child(n + 4) {*/
+  /*width: 22%;*/
+  /*width: 48%;*/
+  /*margin: 30px 3% 0 0;*/
+/*}*/
 
 section#visualizations a {
   text-decoration: none;
@@ -175,14 +179,15 @@ section#visualizations ul {
 section#visualizations > ul > li {
   display: inline-block;
   vertical-align: top;
-  width: 31%;
+  /*width: 31%;*/
+  width: 48%;
   margin: 30px 2% 0 0;
 }
 
-section#visualizations > ul > li:nth-child(n + 4) {
-  width: 22%;
-  margin: 30px 3% 0 0;
-}
+/*section#visualizations > ul > li:nth-child(n + 4) {*/
+  /*width: 22%;*/
+  /*margin: 30px 3% 0 0;*/
+/*}*/
 
 ul.tags {
   /* display: inline; */
@@ -190,6 +195,7 @@ ul.tags {
   position: absolute;
   right: 0;
   top: 0;
+  display:none;
 }
 
 ul.tags > li {
