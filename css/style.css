@@ -35,12 +35,12 @@ header#intro > h1 {
 }
 
 header#intro {
-  margin: 50px;
+  /*margin: 50px;*/
 }
 
 header#intro figure, header#intro p {
   display: inline-block;
-  margin: 0;
+  margin: 30px 0;
   padding: 0;
   vertical-align: middle;
 }
@@ -247,28 +247,28 @@ header.address img, footer img {
   height: 16px;
 }
 
-@media screen and (max-width: 1300px) {
-  section#visualizations > ul > li {
-    display: inline-block;
-    vertical-align: top;
-    width: 48%;
-    margin: 30px 2% 0 0;
-  }
+/*@media screen and (max-width: 1300px) {*/
+  /*section#visualizations > ul > li {*/
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
+    /*width: 48%;*/
+    /*margin: 30px 2% 0 0;*/
+  /*}*/
 
-  section#visualizations > ul > li:nth-child(n + 3) {
-    width: 32%;
-    margin: 30px 1% 0 0;
-  }
+  /*section#visualizations > ul > li:nth-child(n + 3) {*/
+    /*width: 32%;*/
+    /*margin: 30px 1% 0 0;*/
+  /*}*/
 
-  section figcaption {
-    padding-right: 0;
-  }
+  /*section figcaption {*/
+    /*padding-right: 0;*/
+  /*}*/
 
-  ul.tags {
-    position: static;
-  }
+  /*ul.tags {*/
+    /*position: static;*/
+  /*}*/
 
-}
+/*}*/
 
 ul.tags > li.Twitter,
 ul.tags > li.Google,
