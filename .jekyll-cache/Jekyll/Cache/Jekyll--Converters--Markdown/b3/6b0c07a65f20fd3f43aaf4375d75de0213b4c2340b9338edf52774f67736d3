@@ -1,0 +1,47 @@
+I"�<p>For hackweek I worked on new visuals for the displays in the Twitter
+office. The main idea
+behind this visualization is to use the <a href="http://www.paulbourke.net/texture_colour/randomtile/">random space filling tiling of
+the plane</a>
+algorithm to fill the space with potential screens to play
+vine videos, or show Tweets.</p>
+
+<p><img src="/assets/random/2.jpg" alt="filling" /></p>
+
+<p>The application uses WebGL and instanced-arrays to render the different motifs. We render
+about 100,000 primitives on each stage. Here’s a video of how it looks:</p>
+
+<iframe width="750" height="563" src="//www.youtube.com/embed/Nj_ncLwsJmI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true">
+</iframe>
+
+<p>You can try a live WebGL demo here: <a href="http://philogb.github.io/page/fractile/">Live Demo</a>. Works with Chrome and
+Firefox 35+. The project has been open sourced <a href="https://github.com/philogb/page/tree/gh-pages/fractile#readme">here</a>.</p>
+
+<p>The application works on displays that are set to be portrait. Here are
+a few pictures of how the portrait layout looks like:</p>
+
+<p><img src="/assets/random/3.jpg" alt="filling" /></p>
+
+<p><img src="/assets/random/4.jpg" alt="filling" /></p>
+
+<p><img src="/assets/random/5.jpg" alt="filling" /></p>
+
+<p>Vines by:</p>
+
+<ul>
+  <li><a href="https://vine.co/v/Odxn59ZlYTd">Fiña DuBois</a></li>
+  <li><a href="https://vine.co/v/OdjMqzZAjL5">Danorst</a></li>
+  <li><a href="https://vine.co/v/MgBWtqVBuuY">Wesley Thomas</a></li>
+  <li><a href="https://vine.co/v/OebHajIWEpT">GooRee Designs Things</a></li>
+  <li><a href="https://vine.co/v/OatDqJIWztw">Tragic Tofu</a></li>
+  <li><a href="https://vine.co/v/OavtOUTrqdX">GooRee</a></li>
+  <li><a href="https://vine.co/v/Oa3AYlZYmeJ">pxlwrx</a></li>
+  <li><a href="https://vine.co/v/O7g3JqTz1gM">DeathSmoKe</a></li>
+  <li><a href="https://vine.co/v/O6XrrztVgnq">Tragic Tofu</a></li>
+  <li><a href="https://vine.co/v/OilhwUaWUPm">margar!dA</a></li>
+  <li><a href="https://vine.co/v/OhQeHdgd6Mt">GooRee</a></li>
+  <li><a href="https://vine.co/v/OJv9wVh55vZ">Moik</a></li>
+  <li><a href="https://vine.co/v/OvYEqFxndzu">folium</a></li>
+  <li><a href="https://vine.co/v/OnZb6vZ7662">Noah Kalina</a></li>
+</ul>
+
+:ET
