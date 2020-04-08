@@ -27,7 +27,7 @@ header#intro > h1 {
 }
 
 header#intro > * {
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 header#intro {
@@ -35,10 +35,13 @@ header#intro {
 }
 
 section#intro-section {
-  width: 70%;
-  margin: 0;
+  /*width: 70%;*/
+  /*margin: 0;*/
 }
 
+section#intro-section > p:nth-child(1) {
+  text-align:center;
+}
 section#intro-section > p:nth-child(2) {
   font-size: 1em;
 }
@@ -61,14 +64,16 @@ header#intro p {
   /*width: 74%;*/
 }
 
+header#intro figure {
+    margin: auto;
+}
+
 header#intro figure .image {
-    width: 90%;
-    padding-bottom: 70%;
-    margin: 5px 0 0 0;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    width: 40%;
     border: none;
+    border-radius: 12em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 }
 
 header#intro p {
