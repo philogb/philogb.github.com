@@ -22,69 +22,41 @@ h1 {
     font-size: 1.5em;
 }
 
-header#intro > h1 {
-  width: 100%;
-}
-
-header#intro > * {
-  /*display: inline-block;*/
-}
-
-header#intro {
-  /*margin: 50px;*/
-}
-
-section#intro-section {
-  /*width: 70%;*/
-  /*margin: 0;*/
-}
-
 section#intro-section > p:nth-child(1) {
-  text-align:center;
-}
-section#intro-section > p:nth-child(2) {
   font-size: 1em;
 }
 
-header#intro figure, header#intro p {
-  /*display: inline-block;*/
-  /*margin: 30px 0;*/
-  padding: 0;
-  vertical-align: middle;
-}
+figure img.image.profile {
+  width: 150px;
+  /*vertical-align: top;*/
+  /*position: relative;*/
+  /*top: 50px;*/
 
-header#intro figure {
-  width: 25%;
-  vertical-align: top;
-  position: relative;
-  top: 50px;
-}
+  border: none;
+  border-radius: 12em;
+  /*margin-bottom: 20px;*/
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 
-header#intro p {
-  /*width: 74%;*/
 }
 
 header#intro figure {
     margin: auto;
 }
 
-header#intro figure .image {
-    width: 40%;
-    border: none;
-    border-radius: 12em;
-    margin-bottom: 20px;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
-}
-
 header#intro p {
-  font-size: 1.2em;
-  line-height: 1.6em;
+  font-size: 2em;
+  text-align: center;
 }
 
-p {
-  text-align: left;
-  margin: 1em auto 0.1em auto;
+section#leader {
+  /*text-align: left;*/
+  font-size: 1.2em;
 }
+
+/*p {*/
+  /*text-align: left;*/
+  /*margin: 1em auto 0.1em auto;*/
+/*}*/
 
 a, a:visited {
   color: #00a;
@@ -92,6 +64,10 @@ a, a:visited {
 
 section {
   margin: 50px;
+}
+
+section.latest {
+  margin:0;
 }
 
 article {
@@ -117,10 +93,15 @@ article.white img {
 }
 
 section > header {
-  text-align: left;
+  text-align: center;
   padding-bottom: 5px;
   border-bottom: 1px solid #efefef;
+  margin-top: 30px;
   /*text-transform: uppercase;*/
+}
+
+section header h2 {
+  font-size: 1.2em;
 }
 
 section a figure {
@@ -152,20 +133,20 @@ section figcaption {
   text-overflow: ellipsis;
 }
 
-section#latest figcaption {
+section.latest figcaption {
   padding-right: 0;
 }
 
-section#latest a {
+section.latest a {
   text-decoration: none;
   color: #000 !important;
 }
 
-section#latest ul {
+section.latest ul {
   text-align: left;
 }
 
-section#latest > ul > li {
+section.latest > ul > li {
   display: inline-block;
   vertical-align: top;
   /*width: 31%;*/

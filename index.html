@@ -3,33 +3,40 @@ layout: default
 title: Nicolas Garcia Belmonte
 ---
 
-<header id="intro">
-  {% comment %}<figure><div class="image" style="background-image: url(assets/profile.jpg);"></div></figure>{% endcomment %}
-  <figure><img class="image" src="assets/profile.jpg" /></figure>
-  <section id="intro-section">
-    <p>Nicolas Belmonte<br><br><a href="#">Leadership</a> | <a href="#latest">Data Visualization</a> | <a href="https://medium.com/@philogb/math-inspired-art-e4c1a88f69e6">Math Art</a></p>
-  <p>
-    <a href="https://twitter.com/philogb">Nicolas Belmonte</a> is an Engineering Leader at Facebook in the Location Platform group.<br><br>
-    Previously Nicolas was VP, Maps at <a href="http://mapbox.com">Mapbox</a>. Nicolas ran product, design and engineering for the Maps organization responsible for Maps SDKs, APIs, Design and Studio. Mapbox has 500M+ monthly active users.<br><br>
-  Prior to Mapbox Nicolas was Director of Engineering and Head of Visualization at Uber. <a href="https://eng.uber.com/uber-visualization-2018/">Nicolas' group</a> built advanced products to explore <a href="https://eng.uber.com/avs-autonomous-vehicle-visualization/">self-driving car</a>, <a href="http://deck.gl">geospatial</a> and <a href="https://eng.uber.com/data-viz-intel/">business</a> data in the context of urban mobility. Prior to Uber Nicolas was Staff Engineer at Twitter, developing public-facing visualizations published at the NYTimes, Cannes Lions and during Twitter IPO.
-    <br><br>Nicolas' experience covers leading organizations at Facebook, Mapbox and Uber, authoring <a href="/#software">open source work</a>, publishing <a href="https://drive.google.com/file/d/1h-Y60HIvVe-kQ8HWcgTXsZ3Py9cpvp0I/view">research work</a>, <a href="https://twitter.com/philogb/status/1071172687500726274">lecturing at universities</a> on Visualization, <a href="/#talks">speaking at conferences</a> and <a href="https://www.flickr.com/photos/46627889@N02/albums/72157669020607118">exhibiting work</a> on data art at different galleries.
-  </p>
-  </section>
-</header>
-
-<section id="latest">
-  <header>
-    <h2>Data Visualization</h2>
+  <header id="intro">
+    <p>Hi I'm <a href="https://www.linkedin.com/in/nicolasbelmonte/">Nicolas Belmonte</a>.</p>
   </header>
-  <ul><li><a href="https://eng.uber.com/uber-visualization-2018/"><figure><div class="image" style="background-image: url(assets/uber/uber2018.png); background-position: center center;"></div><figcaption>Uber Visualization</figcaption></figure></a></li><li><a href="https://avs.auto"><figure><div class="image" style="background-image: url(assets/uber/sdv.gif); background-position: center center;"></div><figcaption>AVS.auto: Autonomous Vehicles' Software</figcaption></figure></a></li><li><a href="https://kepler.gl"><figure><div class="image" style="background-image: url(assets/uber/keplergl.png); background-position: center center;"></div><figcaption>Kepler.gl for geospatial analysis</figcaption></figure></a></li></ul><!--li><a href="https://eng.uber.com/data-viz-intel/"><figure><div class="image" style="background-image: url(assets/uber/sf_header_slow.gif); background-position: center center;"></div><figcaption>Introduction to Uber Visualization</figcaption></figure></a></li-->
+  <section id="leader" class="main">
+      <figure><a href="https://twitter.com/philogb"><img class="image profile" src="assets/profile.jpg" /></a></figure>
+      <header><h2>
+      Eng. Leadership <a href="https://facebook.com">@Facebook</a> | Former VP, Maps <a href="https://mapbox.com">@Mapbox</a>, Director of Eng. <a href="https://uber.com">@Uber</a>, TLM/Staff Engineer <a href="https://twitter.com">@Twitter</a>.
+      </h2></header>
 
-  <ul>
-    {% for post in site.posts %}{% if post.category == 'Visualization'%}<li><a href="{% if post.fullurl %}{{post.fullurl}}{% else %}{{post.url }}{% endif %}"><figure><div class="image" style="background-image: url({{ post.thumb }}); {% if post.position %}background-position: {{post.position}} {% endif %}"></div><figcaption>{{ post.title }} <ul class="tags">{% for tag in post.tags %}<li class="{{tag}}">{{tag}}</li>{% endfor %}</ul></figcaption></figure></a></li>{% endif %}{% endfor %}</ul>
-</section>
+    <section class="latest">
+      {% comment %}<header>{% endcomment %}
+        {% comment %}<h2>As a leader</h2>{% endcomment %}
+      {% comment %}</header>{% endcomment %}
+      <ul><li><a href="https://eng.uber.com/uber-visualization-2018/"><figure><div class="image" style="background-image: url(assets/uber/uber2018.png); background-position: center center;"></div><figcaption>Uber Visualization</figcaption></figure></a></li><li><a href="https://avs.auto"><figure><div class="image" style="background-image: url(assets/uber/sdv.gif); background-position: center center;"></div><figcaption>AVS.auto: Autonomous Vehicles' Software</figcaption></figure></a></li><li><a href="https://kepler.gl"><figure><div class="image" style="background-image: url(assets/uber/keplergl.png); background-position: center center;"></div><figcaption>Kepler.gl for geospatial analysis</figcaption></figure></a></li></ul><!--li><a href="https://eng.uber.com/data-viz-intel/"><figure><div class="image" style="background-image: url(assets/uber/sf_header_slow.gif); background-position: center center;"></div><figcaption>Introduction to Uber Visualization</figcaption></figure></a></li-->
+    </section>
+  </section>
+
+  <section id="ic" class="main">
+    <figure><a href="https://www.instagram.com/artematician/"><img class="image profile" src="assets/profile3.jpg" /></a></figure>
+    <header><h2>My interests are in Mathematical Art, Data Visualization, Computational Design, Computer Graphics, and Digital Fabrication.</h2></header>
+
+  <section class="latest">
+    <ul><li><a href="https://medium.com/@philogb/a2c5445144c6?source=friends_link&sk=bb9a7ce802b8aeae09cc8f9fd1e72efa"><figure><div class="image" style="background-image: url(assets/hyperfloors/1.jpg); background-position: center center;"></div><figcaption>Hyperbolic Floors</figcaption></figure></a></li><li><a href="https://medium.com/vis-gl/unfolding-the-earth-myriahedral-projections-in-webgl-6b2bcfd00a30"><figure><div class="image" style="background-image: url(assets/myriad/1.jpg); background-position: center center;"></div><figcaption>Myriahedral Projections</figcaption></figure></a></li><li><a href="https://medium.com/@philogb/math-inspired-art-e4c1a88f69e6"><figure><div class="image" style="background-image: url(assets/mathart/1.jpg); background-position: center center;"></div><figcaption>Digital Fabrication</figcaption></figure></a></li></ul><!--li><a href="https://eng.uber.com/data-viz-intel/"><figure><div class="image" style="background-image: url(assets/uber/sf_header_slow.gif); background-position: center center;"></div><figcaption>Introduction to Uber Visualization</figcaption></figure></a></li-->
+  </section>
+  </section>
+  {% comment %}<ul>{% endcomment %}
+    {% comment %}{% for post in site.posts %}{% if post.category == 'Visualization'%}<li><a href="{% if post.fullurl %}{{post.fullurl}}{% else %}{{post.url }}{% endif %}"><figure><div class="image" style="background-image: url({{ post.thumb }}); {% if post.position %}background-position: {{post.position}} {% endif %}"></div><figcaption>{{ post.title }} <ul class="tags">{% for tag in post.tags %}<li class="{{tag}}">{{tag}}</li>{% endfor %}</ul></figcaption></figure></a></li>{% endif %}{% endfor %}</ul>{% endcomment %}
+{% comment %}</section>{% endcomment %}
 
 <section id="software">
   <header>
-    <h2>Software</h2>
+    <h2>
+      Open Source
+    </h2>
   </header>
   <ul>
     {% for post in site.posts %}
