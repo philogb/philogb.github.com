@@ -29,11 +29,9 @@ title: Nicolas Garcia Belmonte
       <ul><li><a href="http://philogb.github.io/band-nexus/#Chris%20Vrenna"><figure><div class="image" style="background-image: url(assets/bandtree/1.jpg); background-position: center center;"></div><figcaption>Hyperbolic Browser</figcaption></figure></a></li><li><a href="http://philogb.github.io/page/hopf/"><figure><div class="image" style="background-image: url(assets/hopf/1.png); background-position: center center;"></div><figcaption>Hopf Fibrations</figcaption></figure></a></li><li><a href="https://philogb.github.io/page/wind/"><figure><div class="image" style="background-image: url(assets/wind/1.jpg); background-position: center center;"></div><figcaption>Wind Visualization</figcaption></figure></a></li></ul><!--li><a href="https://eng.uber.com/data-viz-intel/"><figure><div class="image" style="background-image: url(assets/uber/sf_header_slow.gif); background-position: center center;"></div><figcaption>Introduction to Uber Visualization</figcaption></figure></a></li-->
     </section>
   </section>
-
-  <section class="latest">
-  <ul>
-    {% for post in site.posts %}{% if post.category == 'Visualization'%}<li><a href="{% if post.fullurl %}{{post.fullurl}}{% else %}{{post.url }}{% endif %}"><figure><div class="image" style="background-image: url({{ post.thumb }}); {% if post.position %}background-position: {{post.position}} {% endif %}"></div><figcaption>{{ post.title }} <ul class="tags">{% for tag in post.tags %}<li class="{{tag}}">{{tag}}</li>{% endfor %}</ul></figcaption></figure></a></li>{% endif %}{% endfor %}</ul>
-</section>
+  {% comment %}<ul>{% endcomment %}
+    {% comment %}{% for post in site.posts %}{% if post.category == 'Visualization'%}<li><a href="{% if post.fullurl %}{{post.fullurl}}{% else %}{{post.url }}{% endif %}"><figure><div class="image" style="background-image: url({{ post.thumb }}); {% if post.position %}background-position: {{post.position}} {% endif %}"></div><figcaption>{{ post.title }} <ul class="tags">{% for tag in post.tags %}<li class="{{tag}}">{{tag}}</li>{% endfor %}</ul></figcaption></figure></a></li>{% endif %}{% endfor %}</ul>{% endcomment %}
+{% comment %}</section>{% endcomment %}
 
 <section id="software">
   <header>
