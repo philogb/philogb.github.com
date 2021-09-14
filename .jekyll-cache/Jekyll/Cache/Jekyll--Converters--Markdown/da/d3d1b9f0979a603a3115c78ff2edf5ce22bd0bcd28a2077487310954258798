@@ -1,0 +1,14 @@
+I"¹<p><a href="http://philogb.github.com/band-nexus">Band Nexus</a> is a data visualization that explores relationships
+between bands and artists.</p>
+
+<p><img src="/assets/bandtree/1.jpg" alt="Tree Image" /></p>
+
+<p>Each node represents a band or an artist. Two nodes are connected if for
+example an artist took part of the band at some point in time or collaborated in some way
+(for example by touring together, or did a cover song of the other band,
+etc).</p>
+
+<p>The relations data are stored as static files, but were taken from the
+<a href="http://musicbrainz.org">MusicBrainz</a> database. The visualization was
+created with the <a href="http://thejit.org">JavaScript InfoVis Toolkit</a>.</p>
+:ET

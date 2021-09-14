@@ -5,7 +5,7 @@ permalink: band-nexus-project
 category: Visualization
 tags: [Music, InfoVis]
 thumb: assets/bandtree/1.jpg
-fullurl: http://philogb.github.io/band-nexus/
+fullurl: http://philogb.github.io/band-nexus/#Chris%20Vrenna
 
 ---
 
@@ -22,4 +22,3 @@ etc).
 The relations data are stored as static files, but were taken from the
 [MusicBrainz](http://musicbrainz.org) database. The visualization was
 created with the [JavaScript InfoVis Toolkit](http://thejit.org).
-

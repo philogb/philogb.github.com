@@ -4,114 +4,23 @@ title: Nicolas Garcia Belmonte
 ---
 
   <header id="intro">
-    <p>Hi I'm <a href="https://www.linkedin.com/in/nicolasbelmonte/">Nicolas Belmonte</a>.</p>
+    <p>Nicolas Belmonte</p>
   </header>
+  <section class="links">
+    [ <a href="https://www.linkedin.com/in/nicolasbelmonte/">LinkedIn</a> | <a href="https://www.instagram.com/artematician/">Instagram</a> | <a href="https://twitter.com/philogb">Twitter</a> ]
+  </section>
   <section id="leader" class="main">
-      <figure><a href="https://twitter.com/philogb"><img class="image profile" src="assets/profile.jpg" /></a></figure>
-      <header><h2>
-      Eng. Leadership <a href="https://facebook.com">@Facebook</a> | Former VP, Maps <a href="https://mapbox.com">@Mapbox</a>, Director of Eng. <a href="https://uber.com">@Uber</a>, TLM/Staff Engineer <a href="https://twitter.com">@Twitter</a>.
-      </h2></header>
+      <figure><a href="https://twitter.com/philogb"><img class="image profile" src="assets/profile.jpeg" /></a></figure>
+      <ul>
+      <li>15+ years experience in Data Visualization &amp; Mapping</li>
+      <li>Eng. Leadership <a href="https://facebook.com">@Facebook</a></li>
+      <li>Former VP, Maps <a href="https://mapbox.com">@Mapbox</a></li>
+      <li>Director of Eng. <a href="https://uber.com">@Uber</a></li>
+      <li>TLM/Staff Engineer <a href="https://twitter.com">@Twitter</a></li>
+      </ul>
 
-    <section class="latest">
-      {% comment %}<header>{% endcomment %}
-        {% comment %}<h2>As a leader</h2>{% endcomment %}
-      {% comment %}</header>{% endcomment %}
-      <ul><li><a href="https://eng.uber.com/uber-visualization-2018/"><figure><div class="image" style="background-image: url(assets/uber/uber2018.png); background-position: center center;"></div><figcaption>Uber Visualization</figcaption></figure></a></li><li><a href="https://avs.auto"><figure><div class="image" style="background-image: url(assets/uber/sdv.gif); background-position: center center;"></div><figcaption>AVS.auto: Autonomous Vehicles' Software</figcaption></figure></a></li><li><a href="https://kepler.gl"><figure><div class="image" style="background-image: url(assets/uber/keplergl.png); background-position: center center;"></div><figcaption>Kepler.gl for geospatial analysis</figcaption></figure></a></li></ul><!--li><a href="https://eng.uber.com/data-viz-intel/"><figure><div class="image" style="background-image: url(assets/uber/sf_header_slow.gif); background-position: center center;"></div><figcaption>Introduction to Uber Visualization</figcaption></figure></a></li-->
-    </section>
   </section>
 
-  <section id="ic" class="main">
-    <figure><a href="https://www.instagram.com/artematician/"><img class="image profile" src="assets/profile3.jpg" /></a></figure>
-    <header><h2>I'm interested in Data Visualization, Computer Graphics, Computational Design, Mathematical Art and Digital Fabrication.</h2></header>
-
-    <section class="latest">
-      <ul><li><a href="https://medium.com/@philogb/a2c5445144c6?source=friends_link&sk=bb9a7ce802b8aeae09cc8f9fd1e72efa"><figure><div class="image" style="background-image: url(assets/hyperfloors/1.jpg); background-position: center center;"></div><figcaption>Hyperbolic Floors</figcaption></figure></a></li><li><a href="https://medium.com/vis-gl/unfolding-the-earth-myriahedral-projections-in-webgl-6b2bcfd00a30"><figure><div class="image" style="background-image: url(assets/myriad/1.jpg); background-position: center center;"></div><figcaption>Myriahedral Projections</figcaption></figure></a></li><li><a href="https://medium.com/@philogb/math-inspired-art-e4c1a88f69e6"><figure><div class="image" style="background-image: url(assets/mathart/1.jpg); background-position: center center;"></div><figcaption>Digital Fabrication</figcaption></figure></a></li></ul><!--li><a href="https://eng.uber.com/data-viz-intel/"><figure><div class="image" style="background-image: url(assets/uber/sf_header_slow.gif); background-position: center center;"></div><figcaption>Introduction to Uber Visualization</figcaption></figure></a></li-->
-      <ul><li><a href="http://philogb.github.io/band-nexus/#Chris%20Vrenna"><figure><div class="image" style="background-image: url(assets/bandtree/1.jpg); background-position: center center;"></div><figcaption>Hyperbolic Browser</figcaption></figure></a></li><li><a href="http://philogb.github.io/page/hopf/"><figure><div class="image" style="background-image: url(assets/hopf/1.png); background-position: center center;"></div><figcaption>Hopf Fibrations</figcaption></figure></a></li><li><a href="https://philogb.github.io/page/wind/"><figure><div class="image" style="background-image: url(assets/wind/1.jpg); background-position: center center;"></div><figcaption>Wind Visualization</figcaption></figure></a></li></ul><!--li><a href="https://eng.uber.com/data-viz-intel/"><figure><div class="image" style="background-image: url(assets/uber/sf_header_slow.gif); background-position: center center;"></div><figcaption>Introduction to Uber Visualization</figcaption></figure></a></li-->
-    </section>
+  <section class="main">
+    [ <a href="/projects.html">Projects</a> | <a href="/articles.html">Articles & Software</a> | <a href="/cv.html">Resume</a> ]
   </section>
-  {% comment %}<ul>{% endcomment %}
-    {% comment %}{% for post in site.posts %}{% if post.category == 'Visualization'%}<li><a href="{% if post.fullurl %}{{post.fullurl}}{% else %}{{post.url }}{% endif %}"><figure><div class="image" style="background-image: url({{ post.thumb }}); {% if post.position %}background-position: {{post.position}} {% endif %}"></div><figcaption>{{ post.title }} <ul class="tags">{% for tag in post.tags %}<li class="{{tag}}">{{tag}}</li>{% endfor %}</ul></figcaption></figure></a></li>{% endif %}{% endfor %}</ul>{% endcomment %}
-{% comment %}</section>{% endcomment %}
-
-<section id="software">
-  <header>
-    <h2>
-      Open Source
-    </h2>
-  </header>
-  <ul>
-    {% for post in site.posts %}
-      {% if post.category == 'Software' %}
-      <li>
-      {% if post.thumb %}<img alt="{{ post.title }}" src="{{ post.thumb }}" />{% endif %}
-      <a href="{% if post.fullurl %}{{ post.fullurl }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a> - {{ post.description }}
-      </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
-</section>
-
-<section id="talks">
-  <header>
-    <h2>Talks, Interviews &amp; Articles</h2>
-  </header>
-  <ul>
-    <li><time>Apr 2019</time> <a href="https://blog.mapbox.com/ubers-head-of-visualization-joins-mapbox-5e8ac19e5fa0">Uber’s head of visualization joins Mapbox</a> in Mapbox's blog.
-    <li><time>Apr 2019</time> <a href="https://www.axios.com/uber-mapbox-nico-belmonte-34350dd7-a2c8-42ed-aef7-03a81e6c50eb.html">Exclusive: Mapbox nabs Uber engineering leader</a> in Axios.
-    <li><time>Dec 2018</time> <a href="https://eng.uber.com/uber-visualization-2018/">Four Ways Uber Visualization made an Impact in 2018</a> in Uber Eng. blog</li>
-    <li><time>Dec 2018</time> <a href="http://kepler.gl">Kepler.gl</a> wins gold at <a href="https://www.informationisbeautifulawards.com/">Information is Beautiful Awards</a> in NYC</li>
-    <li><time>Nov 2018</time> <a href="https://www.youtube.com/watch?v=ySmqs6dXQxc">Urban Computing with Advanced Visualization</a> talk at <a href="https://eng.uber.com/uber-open-summit-2018-highlights/">Uber Open</a> in San Francisco, CA</li>
-    <li><time>Oct 2018</time> <a href="https://drive.google.com/open?id=1h-Y60HIvVe-kQ8HWcgTXsZ3Py9cpvp0I">Myriahedral Projections paper</a> accepted at <a href="http://ieeevis.org/year/2018/welcome">IEEE Vis conference</a> in Berlin</li>
-    <li><time>May 2018</time> <a href="https://www.youtube.com/watch?time_continue=2322&v=qASlkZRTYsc#t=37m">Keynote + Uber Visualization</a> for <a href="http://locate.mapbox.com/">Mapbox's Locate conference</a> in San Francisco, CA</li>
-    <li><time>May 2018</time> <a href="https://www.flickr.com/photos/46627889@N02/28266343678/in/dateposted-public/">Wind Map</a> exhibit at <a href="http://www.123data.paris/">Fondation EDF</a> in Paris, France</li>
-    <li><time>Apr 2018</time> <a href="https://www.youtube.com/watch?v=QL22TY3i-rw">Myriahedral Projections</a> for <a href="https://www.uber.com/p/visualization/visualization-nights/">Uber Visualization Nights.</a></li>
-    <li><time>Mar 2018</time> <a href="https://eng.uber.com/belmonte/">Open Source at Uber: A Conversation with Nicolas Belmonte, Head of Visualization</a> for <a href="https://eng.uber.com/">Uber Engineering.</a></li>
-    <li><time>Oct 2017</time> <a href="https://tisch.nyu.edu/itp/events/fall-2017/nicolas-belmonte-from-uber">Uber Visualization</a> talk for <a href="https://tisch.nyu.edu/itp/events/fall-2017/nicolas-belmonte-from-uber">NYU ITP.</a></li>
-    <li><time>Jul 2017</time> <a href="https://www.youtube.com/watch?v=LPQGHJldEvU">Uber Visualization Nights (San Francisco): deck.gl</a> talk for <a href="https://www.uber.com/p/visualization/visualization-nights/">Uber Visualization Nights.</a></li>
-    <li><time>Jun 2017</time> <a href="https://www.youtube.com/watch?v=HU1K7Vhfe-A">Uber Visualization Team</a> talk for <a href="https://www.criteo.com/events/">NABDConf</a> in Paris, France</li>
-    <li><time>May 2017</time> <a href="https://www.youtube.com/watch?v=ROV8NPe_qpE">Visualizing data with deck.gl</a> talk for <a href="https://plotcon.plot.ly/">PLOTCON Conference.</a></li>
-    <li><time>May 2017</time> <a href="https://www.youtube.com/watch?v=KPiONdmNOuI">Visualizing data with deck.gl</a> talk for <a href="https://openvisconf.com/">OpenVis Conference.</a></li>
-    <li><time>Apr 2017</time> <a href="http://uber.github.io/deck.gl/blog/2017/wind-map">Wind map process</a> in <a href="http://deck.gl">Deck.gl blog.</a></li>
-    <li><time>Apr 2017</time> <a href="https://techcrunch.com/2017/04/06/ubers-open-source-data-visualization-tool-now-goes-beyond-maps/">Uber's open source data visualization tool now goes beyond maps</a> in <a href="https://techcrunch.com">Techcrunch.</a></li>
-    <li><time>Apr 2017</time> <a href="https://eng.uber.com/deck-gl-4-0/">Deck.gl v4: Uber's framework for advanced data visualization</a> in <a href="https://eng.uber.com">Uber Engineering Blog.</a></li>
-    <li><time>Nov 2016</time> <a href="https://eng.uber.com/deck-gl-framework/">Deck.gl</a> in <a href="https://eng.uber.com">Uber Engineering Blog.</a></li>
-    <li><time>May 2016</time> <a href="https://eng.uber.com/data-viz-intel/">Engineering intelligence through data visualization at Uber</a> in <a href="https://eng.uber.com">Uber Engineering Blog.</a></li>
-    <li><time>Aug 2015</time> <a href="https://eng.uber.com/pulse-of-a-city/">The Pulse of a City: How People Move Using Engineering at Uber</a> in <a href="http://eng.uber.com/">Uber Engineering Blog.</a></li>
-    <li><time>Aug 2015</time> Author of chapter "Data Visualization Techniques with WebGL" in <a href="http://www.amazon.com/WebGL-Insights-Patrick-Cozzi/dp/1498716075/">WebGL Insights</a></li>
-    <li><time>Apr 2015</time> <a href="http://www.slideshare.net/philogb/openvisconf-webgl-for-graphics-and-data-visualization">WebGL for Graphics and Data Visualization</a> - <a href="http://openvisconf.com/">OpenVisConf</a> in Boston, MA</li>
-    <li><time>Nov 2014</time> <a href="http://www.slideshare.net/philogb/from-data-journalism-to-data-illustration-visualizing-data-with-javascript-at-twitter">From Data Journalism to Data Illustration - Visualizing Data with JavaScript at Twitter</a> - <a href="https://www.jsconfar.com/">JSConf Argentina</a> in Buenos Aires, Argentina <a href="http://www.slideshare.net/philogb/from-data-journalism-to-data-illustration-visualizing-data-with-javascript-at-twitter">(slides)</a></li>
-    <li><time>Nov 2014</time> <a href="http://www.slideshare.net/philogb/the-geography-of-tweets-bbc-developer-conference">The Geography of Tweets</a> - <a href="http://www.bbc.co.uk/academy/technology/events/article/art20141001095726612">BBC Developer Conference</a> in London, UK <a href="http://www.slideshare.net/philogb/the-geography-of-tweets-bbc-developer-conference">(slides)</a> <a href="https://www.dropbox.com/s/7q36yztt5qkvdeo/BBC_College_of_Technology_-_Develop_2014_-_Nicolas_Belmonte_p02c5jkf_default.mp4?dl=0">(video)</a></li>
-    <li><time>Nov 2014</time> <a href="https://engineering.twitter.com/research/publication/extracting-and-visualizing-insights-from-real-time-conversations-around-public">Extracting and Visualizing Insights from Real-Time Conversations Around Public Presentations</a> - <a href="http://ieeevis.org/year/2014/info/overview-amp-topics/accepted-posters">IEEE Vis</a> in Paris, France <a href="http://philogb.github.io/assets/sotu/sotu.pdf">(short paper)</a> <a href="http://philogb.github.io/assets/sotu/sotu.jpg">(poster)</a></li>
-    <li><time>Aug 2014</time> <a href="http://www.slideshare.net/philogb/hacking-publicfacing-data-visualizations-at-twitter">Hacking public-facing data visualizations at Twitter</a> - <a href="https://www.graphicalweb.org/2014/">The Graphical Web</a> in Winchester, UK <a href="http://www.youtube.com/watch?v=5ogU3Ik0bKg">(video)</a></li>
-<li><time>Aug 2014</time> <a href="/assets/articles/epoca.png">Interview</a> by the Brazilian magazine "Epoca"</li>
-<li><time>Jul 2014</time> <a href="/assets/articles/elcomercio.pdf">Interview</a> by the Peruvian newspaper "El Comercio"</li>
-<li><time>Mar 2014</time> <a
-  href="https://source.opennews.org/en-US/articles/sotu-twitter/">How we made the SOTU Twitter visualization</a> for <a href="https://source.opennews.org/en-US/">Source</a></li>
-<li><time>Mar 2014</time> Presented a <a href="http://twitter.github.io/interactive">demo</a> at <a href="http://www.tapestryconference.com/">Tapestry Conference</a> in Annapolis, MA</li>
-<li><time>Feb 2014</time> <a href='http://www.snd.org/2014/02/qa-twitters-nicolas-belmonte-on-the-state-of-the-union-interactive/'>Twitter's Nicolas Belmonte on his State of the Union Visualization</a> - Q&amp;A with the Society for News Design (SND)</li>
-<li><time>Dec 2013</time> <a
-  href='https://speakerdeck.com/philogb/growing-a-language-for-graphics-dotjs'>Growing
-a Language for Graphics</a> - DotJS in Paris, France <a href='http://www.youtube.com/watch?v=x_Fx92X06Yk'>(video)</a></li>
-<li><time>Oct 2013</time> <a
-  href='http://www.slideshare.net/philogb/interactives-at-twitter-27259565'>#Interactive:
-  Data Visualization at Twitter</a> - Data Visualization Meetup at Twitter HQs, San Francisco, CA <a href='http://www.youtube.com/watch?v=Bgu_OsA7qNQ'>(video)</a></li>
-<li><time>May 2013</time> <a href='http://www.slideshare.net/philogb/talk-2013-sudweb'>La visualisation de données comme outil pour découvrir et partager des idées sur le Web</a> - SudWeb 2013 at Avignon, France <a href='http://vimeo.com/album/2451288/video/70464555'>(video)</a></li>
-<li><time>Feb 2013</time> <a href='http://www.slideshare.net/philogb/exploring-web-standards-for-data-visualization'>Exploring Web Standards for High Data Density Visualizations</a> - Strata Conference at Santa Clara, CA, USA</li>
-<li><time>Oct 2012</time> <a href='http://dev.opera.com/articles/view/webgl-post-processing/'>Article - Image and video post-processing with WebGL</a> - Opera Software</li>
-<li><time>Jun 2012</time> <a href='http://www.fayerwayer.com/2012/06/dos-latinos-en-silicon-valley-fw-interviu/'>Interview for Fayerwayer - Dos Latinos en Silicon Valley</a> - Fayerwayer at Santiago, Chile <a href='http://www.youtube.com/watch?v=W0Ycm3gB4E8'>(video)</a></li>
-<li><time>May 2012</time> <a href='http://www.slideshare.net/philogb/javascript-para-graficos-y-visualizacion-de-datos'>JavaScript for Graphics and Data Visualization</a> - JSConf Argentina at Buenos Aires, Argentina <a href='http://blip.tv/jsconfar/nicolas_garcia_belmonte-6193170'>(video)</a></li>
-<li><time>May 2012</time> <a href='http://www.slideshare.net/philogb/nuevas-herramientas-de-visualizacion-en-javascript'>New JavaScript Tools for Data Visualization</a> - Dynamic Languages Meetup at Santiago, Chile</li>
-<li><time>Apr 2012</time> <a href='http://www.slideshare.net/philogb/data-visualization-for-the-web'>Data visualization for the Web</a> - Stanford ACM Tech Talks at Palo Alto, CA, USA</li>
-<li><time>Mar 2012</time> <a href='http://www.slideshare.net/philogb/leaving-flatland-getting-started-with-webgl-sxsw-2012'>Leaving Flatland: Getting Started with WebGL</a> - SXSW at Austin, TX, USA</li>
-<li><time>Oct 2011</time> <a href='http://www.slideshare.net/senchainc/webgl-fundamentals-10013633'>WebGL Fundamentals</a> - SenchaCon at Austin, TX, USA <a href='https://vimeo.com/33644394'>(video)</a></li>
-<li><time>Sep 2011</time> <a href='http://www.slideshare.net/philogb/principles-of-analytical-design-visually-meetup-sept-2011'>Principles of Analytical Design</a> - Visual.ly group meetup at Mountain View, CA, USA</li>
-<li><time>Sep 2011</time> <a href='http://www.slideshare.net/philogb/new-tools-for-visualization-in-javascript-sept-2011'>New Tools for Visualization in JavaScript</a> - Data Visualization group meetup at San Francisco, CA, USA</li>
-<li><time>Aug 2011</time> <a href='http://www.khronos.org/webgl/wiki/Presentations#SIGGRAPH_2011_WebGL_BOF'>PhiloGL: an overview</a> - WebGL BOF SIGGRAPH at Vancouver, BC, Canada</li>
-<li><time>Jun 2011</time> <a href='http://www.slideshare.net/philogb/philogl-webglcamp-google-hqs-june-2011'>PhiloGL: A WebGL Framework for data visualization, creative coding and game development</a> - WebGL Camp at Google HQs at Moutain View, CA, USA <a href='http://www.youtube.com/watch?v=aWTVbS8ruzw'>(video)</a></li>
-<li><time>Dec 2010</time> <a href='http://www.slideshare.net/philogb/creating-interactive-data-visualizations-for-the-web-yow-developer-conferences-australia'>Creating Interactive Data Visualizations for the Web with the JavaScript InfoVis Toolkit 2.0</a> - YOW! Developer Conferences at Melbourne, Australia</li>
-<li><time>Sep 2010</time> <a href='http://www.slideshare.net/philogb/javascript-infovis-toolkit-create-interactive-data-visualizations-for-the-web'>JavaScript InfoVis Toolkit 2.0: Interactive Data Visualizations for the Web</a> - JSConf Europe at Berlin, Germany <a href='http://blip.tv/jsconfeu/nicolas-garcia-belmonte-creating-interactive-data-visualizations-for-the-web-4258166'>(video)</a></li>
-<li><time>Nov 2009</time> <a href='http://www.slideshare.net/philogb/using-web-standards-to-create-interactive-data-visualizations-for-the-web'>Using Web Standards to create Interactive Data Visualizations for the Web </a> - Parisian Seminar on Information Visualization and HCI at Paris, France</li>
-<li><time>2007</time> JavaScript and the Web 2.0 - BarCamp at Buenos Aires, Argentina</li>
-
-  </ul>
-</section>
