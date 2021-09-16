@@ -59,11 +59,13 @@ header#intro p {
 section#leader {
   /*text-align: left;*/
   font-size: 1.2em;
+  width:800px;
+  margin: auto;
 }
 
 section#leader > * {
   display: inline-block;
-  width: 40%;
+  /* width: 40%; */
   height: 150px;
 }
 
@@ -72,7 +74,7 @@ section#leader > ul {
   padding: 0;
   list-style-type: square;
   text-align: left;
-  width: 60%;
+  width: 500px;
 }
 
 section#leader > figure {
