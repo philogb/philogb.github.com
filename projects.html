@@ -22,5 +22,5 @@ title: Nicolas Garcia Belmonte
 <section class="insta">
 <header><h2>Math, Symmetry and Graphics</h2></header>
 <ul>
-{% for post in site.posts %}{% if post.category == 'MathArt'%}{% for tag in post.tags %}<li><figure><video autoplay loop class="image"><source type="video/mp4" src="/assets/posts/{{tag}}"></video></figure></a></li>{% endfor %}{% endif %}{% endfor %}</ul>
+{% for post in site.posts %}{% if post.category == 'MathArt'%}{% for tag in post.tags %}<li><figure><video muted autoplay loop class="image"><source type="video/mp4" src="/assets/posts/{{tag}}"></video></figure></a></li>{% endfor %}{% endif %}{% endfor %}</ul>
 </section>
