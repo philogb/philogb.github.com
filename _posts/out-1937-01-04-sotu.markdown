@@ -1,0 +1,11 @@
+---
+layout: post
+title: State of the Union Address
+permalink: sotu-2014
+category: Visualization
+tags: [Twitter, Gov]
+thumb: assets/sotu/1.jpg
+theme: white
+fullurl: https://blog.twitter.com/2014/visualizing-reactions-to-the-sotu
+
+---

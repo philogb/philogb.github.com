@@ -8,8 +8,12 @@ html, body {
 
 body {
   font-family: "source-code-pro", monospace;
-  font-size: 1em;
   text-align: center;
+}
+
+section#index {
+  font-size: 1.3em;
+  margin: 0;
 }
 
 h1, h2 {
@@ -63,15 +67,17 @@ section#leader > * {
   height: 150px;
 }
 
-section#leader ul {
+section#leader > ul {
   margin: 0;
   padding: 0;
   list-style-type: square;
   text-align: left;
+  width: 60%;
 }
 
-section#leader figure {
+section#leader > figure {
   text-align: right;
+  width: 160px;
   margin-right: 40px;
 }
 
@@ -94,7 +100,6 @@ section {
 }
 
 section.links {
-  font-size: 0.8em;
   margin: 20px 50px;
 }
 
@@ -193,6 +198,31 @@ section.latest > ul > li:nth-child(n + 4) {
   /* width: 48%; */
   margin: 30px 3% 0 0;
 }
+
+section.insta {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+section.insta ul {
+  text-align: left;
+}
+
+section.insta > ul > li {
+  display: inline-block;
+  vertical-align: top;
+  /*width: 31%;*/
+  /*margin: 30px 2% 0 0;*/
+  /*width: 22%;*/
+  width: 20%;
+  margin: 30px 0 0 0;
+}
+
+section.insta > ul > li video {
+  width: 100%;
+  /* width: 48%; */
+}
+
 
 section#visualizations a {
   text-decoration: none;
