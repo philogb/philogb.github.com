@@ -60,7 +60,7 @@ section#leader {
   /*text-align: left;*/
   font-size: 1.2em;
   width:800px;
-  margin: auto;
+  margin: 30px auto;
 }
 
 section#leader > * {
@@ -81,6 +81,10 @@ section#leader > figure {
   text-align: right;
   width: 160px;
   margin-right: 40px;
+}
+
+section.bio-body {
+  font-size: 0.7em;
 }
 
 section#leader ul li:first-of-type {
