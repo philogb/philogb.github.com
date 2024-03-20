@@ -2,28 +2,21 @@
 layout: default
 title: Nicolas Garcia Belmonte
 ---
-<section id="index">
-  <header id="intro">
-    <p>Nico Belmonte</p>
-  </header>
-  <!-- <section class="links">
-    [ <a href="https://www.linkedin.com/in/nicolasbelmonte/">LinkedIn</a> ]
-  </section> -->
-  <section id="leader" class="main">
-      <figure><a href="https://www.linkedin.com/in/nicolasbelmonte/"><img class="image profile" src="assets/profile.jpeg" /></a></figure>
-      <section class="bio-header">
-        Seasoned Technology leader with 15+ years building impactful products and teams in the areas of Maps, AR &amp; VR, Data Visualization, Computer Graphics and Machine Learning at companies like Meta, Uber and Twitter.
-      </section>
-      <section class="bio-body">
-        At Meta I lead the <a href="https://maps.atmeta.com">Geo organization</a> (100ppl) that delivers maps to <a href="https://techcrunch.com/2022/07/19/instagram-new-searchable-map-experience/">40+M DAUs across Instagram</a>, Facebook, WhatsApp and the next generation of Reality Labs devices.<br>◯<br>
-        Previously as a Director of Engineering at Uber, <a href="https://www.uber.com/blog/uber-visualization-2018/">I built an organization</a> that delivered industry-leading software for advanced visualization of <a href="https://deck.gl">business</a>, <a href="https://kepler.gl">geospatial</a> and <a href="https://avs.auto">self-driving car</a> data.
-        I continued my role as an advisor to Unfolded.io, a company built on top of this software, which was <a href="https://techcrunch.com/2021/05/20/geospatial-startup-unfolded-ai-acquired-by-foursquare/">acquired by Foursquare in 2021</a>.<br>◯<br>
-        Before this, I was a Staff Engineer at Twitter delivering <a href="/articles.html">impactful open source visualization and graphics software</a>, papers and talks; and mentored multiple engineers in the organization.
-      </section>
 
+<section id="ic" class="main">
+<section class="insta">
+<header><h2>Hi, I'm Nico. This is my computer work</h2></header>
+<ul>
+{% for post in site.posts %}{% if post.category == 'MathArt'%}{% for tag in post.tags %}<li><figure><video muted autoplay loop class="image"><source type="video/mp4" src="/assets/posts/{{tag}}"></video></figure></a></li>{% endfor %}{% endif %}{% endfor %}</ul>
+</section>
+
+<section class="latest">
+  <header><h2>Articles & Interactive work</h2></header>
+  <ul>
+  {% for post in site.posts %}{% if post.category == 'Visualization'%}<li><a href="{% if post.fullurl %}{{post.fullurl}}{% else %}{{post.url }}{% endif %}"><figure><div class="image" style="background-image: url({{ post.thumb }}); {% if post.position %}background-position: {{post.position}} {% endif %}"></div><figcaption>{{ post.title }} <ul class="tags">{% for tag in post.tags %}<li class="{{tag}}">{{tag}}</li>{% endfor %}</ul></figcaption></figure></a></li>{% endif %}{% endfor %}</ul>
   </section>
 
-  <!-- <section class="main">
-    [ <a href="/projects.html">Projects</a> | <a href="/articles.html">Articles & Software</a> | <a href="/cv.html">Resume</a> ]
-  </section> -->
+
+  <figure><a href="https://www.instagram.com/artematician/"><img class="image profile" src="assets/profile3.jpg" /></a></figure>
+  <!-- <header><h2>I'm interested in Data Visualization, Computer Graphics, Computational Design, Mathematical Art and Digital Fabrication.</h2></header> -->
 </section>
